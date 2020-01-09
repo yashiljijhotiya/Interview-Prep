@@ -8,7 +8,6 @@ public class MaxLenZeroSumSub {
     public int maxLen(int arr[]){
      int maxL = 0;
      int sum = 0;
-        HashSet<Integer> hs = new HashSet<>();
         HashMap<Integer,Integer> h = new HashMap<Integer, Integer>();
         for(int i = 0; i < arr.length;i++){
             sum += arr[i];

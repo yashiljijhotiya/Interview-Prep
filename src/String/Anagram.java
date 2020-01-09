@@ -27,6 +27,7 @@ public class Anagram {
                 result = result ^ (int)str1.charAt(i);
                 result = result ^ (int) str2.charAt(i);
             }
+
             return result == 0;
         }
     }
@@ -36,5 +37,7 @@ public class Anagram {
         String s2 = "silent";
         if(isAngramByXOR(s1, s2))
             System.out.println("is anagram");
+        else
+            System.out.println("is not anagram");
     }
 }

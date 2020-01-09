@@ -114,8 +114,6 @@ public class CountLetters {
     }
 
     private static  void sortString(String arr[]){
-      //  Arrays.sort(arr);
-       // System.out.println(Arrays.toString(arr));
         Map<String, Integer> tm = new TreeMap<>();
         for(var s : arr){
             if(!tm.containsKey(s)){
@@ -131,14 +129,14 @@ public class CountLetters {
 
     public static void main(String[] args) {
         String s = "#Ell!n$p!ron1525";
-        String s1 = "aasbcas";
-        String s2 = "abc";
+        String s1 = "this is a test string";
+        String s2 = "tist";
         String numStr = "12abc20yz68";
         //countLetters(s);
        // System.out.println(numSumInStr(numStr));
-        //System.out.println(smallestWindow(s1, s2));
-       // System.out.println(removeAdjacentDuplicate(s1));
+        System.out.println(smallestWindow(s1, s2));
+        //System.out.println(removeAdjacentDuplicate(s1));
         String [] str = {"java", "java", "movie", "test", "dog", "cat"};
-        sortString(str);
+       // sortString(str);
     }
 }

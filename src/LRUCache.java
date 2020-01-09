@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class LRUCache {
     int capacity;
-    HashMap<Integer,LRUNode> lru = new HashMap<Integer, LRUNode>();
+    static HashMap<Integer,LRUNode> lru = new HashMap<Integer, LRUNode>();
     LRUNode head = null;
     LRUNode end = null;
 
@@ -72,6 +72,14 @@ public class LRUCache {
 
     public static void main(String args[]){
         LRUCache l = new LRUCache(5);
+        l.set(5,11);
+        l.set(4,12);
+        l.set(2,13);
+        l.set(8,14);
+        l.set(19,15);
+        l.set(20,88);
+        System.out.println(lru);
+        System.out.println(l.get(5));
 
     }
 }

@@ -117,20 +117,35 @@ public class BtreeOperation {
         return 1+ Math.min(minDepth(root.left), minDepth(root.right));
     }
 
+    private static boolean istestBst(BNode root){
+        return isBst(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
+    }
+
+    private static int maxDepth(BNode root){
+        if(root == null){
+            return 0;
+        }
+        int left = maxDepth(root.left);
+        int right = maxDepth(root.right);
+        return Math.min(left,right)+1;
+    }
+
+
     public static void main(String args[]){
         BtreeOperation b = new BtreeOperation();
 
         b.root = new BNode(3);
         b.root.left = new BNode(2);
         b.root.right = new BNode(5);
-        b.root.left.left = new BNode(1);
+        b.root.left.left = new BNode(7);
  //       b.root.left.right = new BNode(4);
 //        b.root.right.left = new BNode(6);
 //        b.root.right.right = new BNode(7);
        // b.lot();
-        //System.out.println(isBst(root, Integer.MIN_VALUE, Integer.MAX_VALUE));
+        //System.out.println(istestBst(root));
         //minDepth(root);
         //lotNew(root);
-        rightView(root);
+        //rightView(root);
+        System.out.println("max depth of tree is: " +maxDepth(root));
     }
 }

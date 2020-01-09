@@ -1,3 +1,5 @@
+import java.util.TreeSet;
+
 public class TestHackerRank {
     private  static  void stairPattern(int n){
         int c = 1;
@@ -15,8 +17,20 @@ public class TestHackerRank {
 
         }
 
+
+
     }
+
+
     public static void main(String args[]){
-        stairPattern(3);
+        TreeSet<Integer> ts = new TreeSet<>();
+        ts.add(1);
+        ts.add(11);
+        ts.add(2);
+        ts.add(19);
+        System.out.println(ts);
+        System.out.println(ts.floor(3));
+        System.out.println(ts.ceiling(3));
+        //stairPattern(3);
     }
 }

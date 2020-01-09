@@ -38,6 +38,14 @@ public class Graph {
         }
     }
 
+    private static  void dfs(int src){
+        Stack<Integer> st = new Stack<>();
+        st.push(src);
+        while(!st.empty()){
+            
+        }
+    }
+
 
     public static void main(String args[]){
         Graph g= new Graph();
