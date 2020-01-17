@@ -114,8 +114,16 @@ public class BtreeOperation {
     private static int minDepth(BNode root){
         if(root == null)
             return 0;
-        return 1+ Math.min(minDepth(root.left), minDepth(root.right));
+        if(root.left == null && root.right == null)
+            return 1;
+        int lDepth =  minDepth(root.left);
+        int rDepth = minDepth(root.right);
+        return  1 + Math.min(lDepth,rDepth);
+//        return 1+ Math.min(minDepth(root.left), minDepth(root.right));
     }
+
+
+
 
     private static boolean istestBst(BNode root){
         return isBst(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
@@ -143,7 +151,7 @@ public class BtreeOperation {
 //        b.root.right.right = new BNode(7);
        // b.lot();
         //System.out.println(istestBst(root));
-        //minDepth(root);
+        System.out.println("min depth of tree is :" +minDepth(root));
         //lotNew(root);
         //rightView(root);
         System.out.println("max depth of tree is: " +maxDepth(root));

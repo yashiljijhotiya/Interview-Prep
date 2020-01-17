@@ -2,52 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e813be7b-2372-4e81-ab79-72103461d6b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/String/UncommonChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/RemoveDuplicateFromSortedArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bst/SortedArrayToBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedList/PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathematics/GCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathematics/ValidSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/matrix/KthElementInSortedMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem_solving/OrderOfOneOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/BtreeOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/BtreeOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Builder/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Builder/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/LRUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/Anagram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/CountLetters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/CountLetters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/StringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/StringTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/Subsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/Subsequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/TestHackerRank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/TestHackerRank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/graph/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/graph/GraphOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/graph/GraphOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/hashing/MaxLenZeroSumSub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/hashing/MaxLenZeroSumSub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/sliding_window/MaxOfEveryKWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/sliding_window/MaxOfEveryKWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/SystemDesign/Elevator/ElevatorSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/SystemDesign/Elevator/ElevatorSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/SystemDesign/Elevator/IElevatorSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/SystemDesign/Elevator/IElevatorSystem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Btree/BtreeOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Btree/BtreeOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Btree/SpiralOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Btree/SpiralOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Btree/VerOrderNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Btree/VerOrderNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/Anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/CountLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/CountLetters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/RearrangeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/RearrangeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/SortCharacterByFreq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/SortCharacterByFreq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/StringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/Subsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/Subsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/TwoCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/TwoCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SystemDesign/Elevator/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemDesign/Elevator/Elevator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SystemDesign/Elevator/ElevatorDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemDesign/Elevator/ElevatorDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SystemDesign/Elevator/ElevatorSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemDesign/Elevator/ElevatorSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SystemDesign/Elevator/Enums/ElevatorDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemDesign/Elevator/Enums/ElevatorDirection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SystemDesign/Elevator/Enums/ElevatorStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemDesign/Elevator/Enums/ElevatorStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SystemDesign/Elevator/Exception/InvalidNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemDesign/Elevator/Exception/InvalidNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SystemDesign/Elevator/IElevatorSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemDesign/Elevator/IElevatorSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestHackerRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestHackerRank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/RescueBoatProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/RescueBoatProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dp/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/CoinChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dp/PartitionSumProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/PartitionSumProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/GNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/GNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/GraphOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/GraphOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hashing/MaxLenZeroSumSub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashing/MaxLenZeroSumSub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multithreading/ExecutorServiceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/ExecutorServiceExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multithreading/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem_solving/KClosestsPointToOrigin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/KClosestsPointToOrigin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem_solving/MeetingRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/MeetingRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sliding_window/MaxOfEveryKWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sliding_window/MaxOfEveryKWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sliding_window/MaxSumOfK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sliding_window/MaxSumOfK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sliding_window/SubStringPatternMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sliding_window/SubStringPatternMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,13 +56,13 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.ElevatorDriver">
-    <configuration name="CountLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.CountLetters" />
+  <component name="RunManager" selected="Application.KthElementInSortedMatrix">
+    <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathematics.GCD" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="mathematics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElevatorDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SystemDesign.Elevator.ElevatorDriver" />
+    <configuration name="KthElementInSortedMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="matrix.KthElementInSortedMatrix" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SystemDesign.Elevator.*" />
+          <option name="PATTERN" value="matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.Subsequence" />
+    <configuration name="OrderOfOneOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem_solving.OrderOfOneOperation" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="problem_solving.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,19 +96,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHackerRank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestHackerRank" />
+    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.PlusOne" />
       <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadDemo" />
+    <configuration name="RemoveDuplicateFromSortedArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.RemoveDuplicateFromSortedArr" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,19 +123,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountLetters" />
-      <item itemvalue="Application.Subsequence" />
-      <item itemvalue="Application.TestHackerRank" />
-      <item itemvalue="Application.ThreadDemo" />
-      <item itemvalue="Application.ElevatorDriver" />
+      <item itemvalue="Application.RemoveDuplicateFromSortedArr" />
+      <item itemvalue="Application.OrderOfOneOperation" />
+      <item itemvalue="Application.GCD" />
+      <item itemvalue="Application.PlusOne" />
+      <item itemvalue="Application.KthElementInSortedMatrix" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ElevatorDriver" />
-        <item itemvalue="Application.ThreadDemo" />
-        <item itemvalue="Application.TestHackerRank" />
-        <item itemvalue="Application.Subsequence" />
-        <item itemvalue="Application.CountLetters" />
+        <item itemvalue="Application.KthElementInSortedMatrix" />
+        <item itemvalue="Application.PlusOne" />
+        <item itemvalue="Application.GCD" />
+        <item itemvalue="Application.OrderOfOneOperation" />
+        <item itemvalue="Application.RemoveDuplicateFromSortedArr" />
       </list>
     </recent_temporary>
   </component>
@@ -210,35 +183,35 @@
     </state>
     <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578461313960" />
     <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578515894024" />
-    <state x="424" y="6" key="CommitChangelistDialog2" timestamp="1577111718697">
+    <state x="424" y="6" key="CommitChangelistDialog2" timestamp="1578944629907">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577111718697" />
-    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1576734437988">
+    <state x="424" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578944629907" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1578631838939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1576734437988" />
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578631838939" />
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575019161502" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1578517631853">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1579231897132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578466510391" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578517631853" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1578517631853">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1579231897132" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579154976385" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1579231897132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578466510390" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578517631853" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1578517631853">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1579231897132" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579154976385" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1579231897132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578466510390" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578517631853" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1578517631853">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1579231897132" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579154976385" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1579231897132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578466510391" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578517631853" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1579231897132" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579154976385" />
     <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1578451876173">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -263,11 +236,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1575651763692" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1578511438229">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1579231462400">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578462875880" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578511438229" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1579231462400" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579170698686" />
     <state x="209" y="32" key="new project wizard" timestamp="1576572213052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
