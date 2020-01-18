@@ -12,7 +12,11 @@ public class SortEmployee {
         System.out.println("**************************************");
         for (Entry<String,Employee> entry : map.entrySet()) {
             System.out.println("Key : " + entry.getKey()
-                    + "  Value : " + entry.getValue());
+                    + "  Values : " + "id :" + entry.getValue().id
+                            + "Name :" + entry.getValue().name +
+                    "salary : " + entry.getValue().salary + "position :"
+                    + entry.getValue().position
+                    );
         }
         System.out.println();
     }
@@ -27,19 +31,6 @@ public class SortEmployee {
         hm.put("Deloitte", e3);
         System.out.println("Unsorted Map");
         printMap(hm);
-
-//        Map<String,Employee> sm = new TreeMap<String, Employee>(
-//                new Comparator()
-//                {
-//
-//                   int compare(String s1, String s2){
-//                       return  hm.get(s1).getSalary().compareTo(hm.get(s2).getSalary());
-//                    }
-//                });
-
-//        sm.putAll(hm);
-//        System.out.println("sorted map");
-//        printMap(sm);
 
     }
 }

@@ -7,6 +7,9 @@ public class RemoveKIdenticalCharacter {
 
     static String remove_k_characters(String st1, int n, int k)
     {
+        if(st1.length() <= 1 || st1 == null || k <= 1){
+            return st1;
+        }
 
         Stack<Entity> st = new Stack<Entity>();
 
