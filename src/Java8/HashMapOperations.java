@@ -11,9 +11,9 @@ import static java.util.Map.Entry.comparingByValue;
 public class HashMapOperations {
 
     public static void main(String[] args) {
-        Employee ey = new Employee(17, "Yashil", 70000, "Fullstack developer");
-        Employee ea = new Employee(21, "Abinash", 40000, "Tester");
-        Employee eb = new Employee(13, "Biswajeet", 60000, "Web developer");
+        Employee ey = new Employee(17, "Yashil", 170000, "Fullstack developer");
+        Employee ea = new Employee(21, "Abinash", 63000, "Tester");
+        Employee eb = new Employee(13, "Biswajeet", 61000, "Web developer");
         Employee es = new Employee(7, "Shahi", 60000, "Backend developer");
 
         HashMap<Integer, Employee> map = new HashMap<>();
@@ -21,11 +21,29 @@ public class HashMapOperations {
         map.put(es.id, es);
         map.put(ea.id, ea);
         map.put(eb.id, eb);
-//        Map<Integer, Employee> sortedMap = map.entrySet().stream().
-//                   collect(Collectors.toMap(k -> k.getKey(), e -> e.getValue())).entrySet().stream().sorted(Map.Entry.comparingByKey()).
-//                   collect(Collectors.toMap(Map.Entry :: getKey, Map.Entry :: getValue, (oldVal, newVal) -> oldVal, LinkedHashMap::new));
-//        sortedMap.forEach((k,v) -> System.out.println(k + " : " + v));
+        Map<Integer, Employee> sortedmap = map.entrySet().stream().
+                   collect(Collectors.toMap(k -> k.getKey(), e -> e.getValue())).entrySet().stream().sorted(Map.Entry.comparingByKey()).
+                   collect(Collectors.toMap(Map.Entry :: getKey, Map.Entry :: getValue, (oldVal, newVal) -> oldVal, LinkedHashMap::new));
+        sortedmap.forEach((k,v) -> System.out.println(k + " : " + v));
 
+        /*steps to sort map :- 1-> convert it to list.
+        //2 -> sort list.
+        3. -> Again put back list to new map. */
+
+        List<Map.Entry<Integer,Employee>> mapList = new LinkedList<>(map.entrySet());
+        Collections.sort(mapList, new Comparator<Map.Entry<Integer, Employee>>() {
+            @Override
+            public int compare(Map.Entry<Integer, Employee> o1, Map.Entry<Integer, Employee> o2) {
+                return o1.getValue().getName().compareTo(o2.getValue().getName());
+            }
+        });
+
+        HashMap<Integer,Employee>sortedMap = new LinkedHashMap<>();
+        for(Map.Entry<Integer,Employee> entry : mapList){
+            sortedMap.put(entry.getKey(),entry.getValue());
+        }
+
+        System.out.println("sorted map : " +sortedMap);
 
         ArrayList<Employee> list = new ArrayList<>();
         list.add(ey);

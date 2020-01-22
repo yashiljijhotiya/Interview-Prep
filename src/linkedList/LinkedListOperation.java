@@ -1,5 +1,7 @@
 package linkedList;
 
+import java.util.HashSet;
+
 public class LinkedListOperation {
 
     SLLNode head = null;
@@ -42,6 +44,28 @@ public class LinkedListOperation {
 
               }
         }
+    }
+
+    private static SLLNode findIntersectionPoint(SLLNode head1, SLLNode head2){
+        if(head1 == null || head2 == null){
+            return null;
+        }
+        HashSet<SLLNode> visited = new HashSet<>();
+        SLLNode temp1 = head1;
+        while(temp1 != null){
+            visited.add(temp1);
+            temp1 = temp1.next;
+        }
+
+        SLLNode temp2 = head2;
+        while (temp2 != null){
+            if(visited.contains(temp2)){
+               return temp2;
+            }
+            temp2 = temp2.next;
+        }
+
+     return null;
     }
 
 

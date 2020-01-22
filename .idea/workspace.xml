@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e813be7b-2372-4e81-ab79-72103461d6b3" name="Default Changelist" comment="" />
+    <list default="true" id="e813be7b-2372-4e81-ab79-72103461d6b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/arrays/MedianTwoSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/MergeKSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/Seggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/LongestPallindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedList/ZigZag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathematics/MultipleOf3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/matrix/SetZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java8/HashMapOperations$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java8/HashMapOperations$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java8/HashMapOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java8/HashMapOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/linkedList/LinkedListOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/linkedList/LinkedListOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java8/HashMapOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java8/HashMapOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedListOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedListOperation.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,13 +56,13 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.HashMapOperations">
-    <configuration name="BalancedParanthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.BalancedParanthesis" />
+  <component name="RunManager" selected="Application.LongestContiguousSubsequence">
+    <configuration name="LongestContiguousSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.LongestContiguousSubsequence" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java8.HashMapOperations" />
+    <configuration name="MedianTwoSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MedianTwoSortedArray" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java8.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxLenZeroSumSub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashing.MaxLenZeroSumSub" />
+    <configuration name="MergeKSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MergeKSortedArrays" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashing.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java8.SortEmployee" />
+    <configuration name="MultipleOf3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathematics.MultipleOf3" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java8.*" />
+          <option name="PATTERN" value="mathematics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java8.StreamOperation" />
+    <configuration name="Seggregate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Seggregate" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java8.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,19 +123,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MaxLenZeroSumSub" />
-      <item itemvalue="Application.BalancedParanthesis" />
-      <item itemvalue="Application.SortEmployee" />
-      <item itemvalue="Application.HashMapOperations" />
-      <item itemvalue="Application.StreamOperation" />
+      <item itemvalue="Application.MultipleOf3" />
+      <item itemvalue="Application.Seggregate" />
+      <item itemvalue="Application.MedianTwoSortedArray" />
+      <item itemvalue="Application.MergeKSortedArrays" />
+      <item itemvalue="Application.LongestContiguousSubsequence" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HashMapOperations" />
-        <item itemvalue="Application.StreamOperation" />
-        <item itemvalue="Application.SortEmployee" />
-        <item itemvalue="Application.BalancedParanthesis" />
-        <item itemvalue="Application.MaxLenZeroSumSub" />
+        <item itemvalue="Application.LongestContiguousSubsequence" />
+        <item itemvalue="Application.MergeKSortedArrays" />
+        <item itemvalue="Application.MedianTwoSortedArray" />
+        <item itemvalue="Application.Seggregate" />
+        <item itemvalue="Application.MultipleOf3" />
       </list>
     </recent_temporary>
   </component>
@@ -178,26 +192,26 @@
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578631838939" />
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575019161502" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1579335060411">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1579637534155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1579244178748" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579335060411" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1579335060410">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1579488725515" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579637534155" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1579637534155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1579244178748" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579335060410" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1579335060410">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1579488725515" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579637534155" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1579637534155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1579244178748" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579335060410" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1579335060411">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1579488725515" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579637534155" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1579637534155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1579244178748" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579335060411" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1579488725515" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579637534155" />
     <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1578451876173">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -222,11 +236,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1575651763692" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1579269968025">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1579661411098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1579242201437" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579269968025" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1579661411098" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579625823861" />
     <state x="209" y="32" key="new project wizard" timestamp="1576572213052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
