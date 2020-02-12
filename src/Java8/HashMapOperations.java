@@ -37,6 +37,13 @@ public class HashMapOperations {
                 return o1.getValue().getName().compareTo(o2.getValue().getName());
             }
         });
+       //java 8
+        mapList.stream().sorted((o1 , o2) -> o1.getValue().getName().compareTo(o2.getValue().getName()));
+
+        //Comparing on multiple field
+//        Collections.sort(mapList, Comparator.comparing(Map.Entry<Integer, Employee> ::)
+//                     .thenComparing(Employee::getName)
+//                      .thenComparing(Employee::getSalary));
 
         HashMap<Integer,Employee>sortedMap = new LinkedHashMap<>();
         for(Map.Entry<Integer,Employee> entry : mapList){

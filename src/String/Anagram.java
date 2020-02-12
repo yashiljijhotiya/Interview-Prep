@@ -1,11 +1,12 @@
 package String;
+import java.util.*;
 
 public class Anagram {
 
-    public static  int MAx_SIZE = 128;
+    public static  int MAX_SIZE = 128;
 
     private boolean isAnagram (String s1, String s2){
-        int arr[] = new int[MAx_SIZE];
+        int arr[] = new int[MAX_SIZE];
         if(s1.length() == 0 && s2.length() != 0 || s2.length() == 0 && s1.length() != 0){
             return  false;
         }
@@ -39,5 +40,7 @@ public class Anagram {
             System.out.println("is anagram");
         else
             System.out.println("is not anagram");
+
+
     }
 }

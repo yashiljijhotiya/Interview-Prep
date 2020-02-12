@@ -4,11 +4,11 @@ import java.util.PriorityQueue;
 public class MergeKSortedArrays {
 //TC : (k*n)log(k)
     private static class PQNode{
-        int array;
+        int arrayNum;
         int index;
         int val;
-        public PQNode(int array, int index, int val){
-            this.array = array;
+        public PQNode(int arrayNum, int index, int val){
+            this.arrayNum = arrayNum;
             this.index = index;
             this.val = val;
         }
@@ -22,14 +22,14 @@ public class MergeKSortedArrays {
             size += arr[i].length;
             minHeap.add(new PQNode(i,0,arr[i][0]));
         }
-        System.out.println(size);
+
         int sortedArr[] = new  int[size];
         for (int i = 0; i < size; i++){
             PQNode node = minHeap.poll();
             if(node != null){
                 sortedArr[i] = node.val;
-                if(node.index+1 < arr[node.array].length){
-                    minHeap.add(new PQNode(node.array,node.index+1, arr[node.array][node.index+1]));
+                if(node.index+1 < arr[node.arrayNum].length){
+                    minHeap.add(new PQNode(node.arrayNum,node.index+1, arr[node.arrayNum][node.index+1]));
                 }
             }
         }

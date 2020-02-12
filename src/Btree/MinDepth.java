@@ -1,5 +1,7 @@
 package Btree;
 
+import java.util.Queue;
+
 public class MinDepth {
 
     static int sum = 0;
@@ -37,9 +39,6 @@ public class MinDepth {
         sumOfNodeAtMaxLevel(root.right, level++);
 
     }
-
-
-
 
     public static void main(String[] args) {
         BNode root = new BNode(1);

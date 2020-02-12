@@ -19,7 +19,7 @@ public class Singleton {
     }
 
     public static void main(String[] args) {
-        System.out.println("s1 :" + getInstance().hashCode() + "s2 :" + getInstance().hashCode());
+        System.out.println("s1 :" + getInstance().hashCode() + "  s2 :" + getInstance().hashCode());
         if(getInstance().equals(getInstance()))
             System.out.println("Singleton succeeded");
 

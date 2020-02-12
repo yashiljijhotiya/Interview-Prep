@@ -17,7 +17,7 @@ public class HashMapSorting {
 
 
     public static void main(String[] args) {
-     //   HashMap<String, Integer> h = new HashMap<>();
+       HashMap<String, Integer> h = new HashMap<>();
         ArrayList<Integer> arr = new ArrayList<>();
         arr.add(11);
         arr.add(1);
@@ -25,19 +25,19 @@ public class HashMapSorting {
         arr.add(13);
         arr.add(91);
         arr.add(22);
-        System.out.println("ArrayList without sorting :" + arr);
+//        System.out.println("ArrayList without sorting :" + arr);
+//
+//        var result = arr.stream().sorted().collect(Collectors.toList());
+//
+//        System.out.println("ArrayList after sorting : " +result);
 
-        var result = arr.stream().sorted().collect(Collectors.toList());
-
-        System.out.println("ArrayList after sorting : " +result);
-
-//        HashMapSorting hm = new HashMapSorting();
-//        h.put("Yashil", 77);
-//        h.put("Anchal", 80);
-//        h.put("Nancy", 22);
-//        h.put("Shubhi", 19);
-//        System.out.println();
-//        hm.sortByValue(h);
+        HashMapSorting hm = new HashMapSorting();
+        h.put("Yashil", 77);
+        h.put("Anchal", 80);
+        h.put("Nancy", 22);
+        h.put("Shubhi", 19);
+        System.out.println();
+        hm.sortByValue(h);
 
     }
 }
