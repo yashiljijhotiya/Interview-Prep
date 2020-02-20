@@ -7,10 +7,9 @@ public class Anagram {
 
     private boolean isAnagram (String s1, String s2){
         int arr[] = new int[MAX_SIZE];
-        if(s1.length() == 0 && s2.length() != 0 || s2.length() == 0 && s1.length() != 0){
+        if(s1 == null && s2 == null || s1.length() != s2.length()){
             return  false;
         }
-
         for (int i = 0; i < s1.length(); i++){
             arr[s1.charAt(i) - 'a']++;
         }

@@ -15,16 +15,18 @@ public class RainTrapping {
          for(int i = len-2; i >= 0; i--){
              rightHeight[i] = Math.max(rightHeight[i+1], arr[i]);
          }
-
+        System.out.println("left height");
          for(int i = 0; i < len; i++){
              totalWater += Math.min(leftHeight[i], rightHeight[i])-arr[i];
+             System.out.println(rightHeight[i]);
          }
 
         System.out.println("total water collected is : " + totalWater);
 
     }
     public static void main(String[] args) {
-      int arr[] = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+      int arr[] = {3,0,0,2,0,4};
+
       trapWater(arr);
     }
 }

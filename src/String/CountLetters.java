@@ -132,10 +132,11 @@ public class CountLetters {
         String s1 = "this is a test string";
         String s2 = "tist";
         String numStr = "12abc20yz68";
+        String s3 = "aacbccbbdb";
         //countLetters(s);
        // System.out.println(numSumInStr(numStr));
-        System.out.println(smallestWindow(s1, s2));
-        //System.out.println(removeAdjacentDuplicate(s1));
+        //System.out.println(smallestWindow(s1, s2));
+       // System.out.println(removeAdjacentDuplicate(s3));
         String [] str = {"java", "java", "movie", "test", "dog", "cat"};
        // sortString(str);
     }
