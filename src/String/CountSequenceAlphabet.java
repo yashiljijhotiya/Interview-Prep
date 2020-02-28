@@ -41,8 +41,8 @@ public class CountSequenceAlphabet {
     }
     public static void main(String[] args) {
       String str = " aaabbddaabbcc";
-      String s = "abc ddd abc test abc ddd test";
+     // String s = "abc ddd abc test abc ddd test";
 
-      //countAlphabet(str);
+      countAlphabet(str);
     }
 }

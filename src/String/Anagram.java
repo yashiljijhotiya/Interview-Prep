@@ -28,6 +28,8 @@ public class Anagram {
                 result = result ^ (int) str2.charAt(i);
             }
 
+            //System.out.println(result);
+
             return result == 0;
         }
     }

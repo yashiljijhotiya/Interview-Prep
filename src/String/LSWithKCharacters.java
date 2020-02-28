@@ -5,11 +5,11 @@ Given a string and a number k, find the longest subsequence of a string where ev
 */
 public class LSWithKCharacters {
 
-    private  static  final int MAx_Chars = 26;
+    private  static  final int MAX_CHARS = 26;
 
     private void longestSubSequenceWithK(String str, int k){
         int l = str.length();
-        int arr[] = new int[MAx_Chars];
+        int arr[] = new int[MAX_CHARS];
 
         for(int i = 0; i < l; i++){
             arr[str.charAt(i)- 'a']++;

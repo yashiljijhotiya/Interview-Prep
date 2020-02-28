@@ -1,6 +1,6 @@
 package problem_solving;
 
-public class FrogJump {
+public class  FrogJump {
 
     private static int findSteps(int arr[], int x){
         int steps = x;

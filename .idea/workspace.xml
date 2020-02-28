@@ -2,19 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e813be7b-2372-4e81-ab79-72103461d6b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/OddOccurenceInArr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedList/LLImportant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mathematics/BinaryGap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem_solving/FrogJump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem_solving/GasStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/FindAllMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/Boggle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/RatMaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bit_manipulation/BitBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bit_manipulation/CountNumberOfBitsBtwTwoNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bit_manipulation/UniqueNumber3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview_question/MinProductTwoNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview_question/PowerOfTwoDivisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview_question/practice/AnagramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/ConnectSticks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/JumpGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/RottenOrrange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/WordSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem_solving/BinaryGap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem_solving/HouseOfRobber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem_solving/NextPallindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem_solving/PaintHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem_solving/PassingCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem_solving/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem_solving/TaskScheduler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/Anagram$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice/String/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/Anagram.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice/String/CountLetters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/CountLetters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/RainTrapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/RainTrapping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/CountSequenceAlphabet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/CountSequenceAlphabet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/LSWithKCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/LSWithKCharacters.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/String/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/Anagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/String/CountLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/CountLetters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/RainTrapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/RainTrapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/CountSequenceAlphabet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/CountSequenceAlphabet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/LSWithKCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/LSWithKCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/FrogJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/FrogJump.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +74,13 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.FrogJump">
-    <configuration name="BinaryGap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mathematics.BinaryGap" />
+  <component name="RunManager" selected="Application.JumpGame">
+    <configuration name="ConnectSticks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.ConnectSticks" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mathematics.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrogJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem_solving.FrogJump" />
+    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.JumpGame" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problem_solving.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GasStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem_solving.GasStation" />
+    <configuration name="RottenOrrange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.RottenOrrange" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problem_solving.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RainTrapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.RainTrapping" />
+    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Subsets" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortBinaryArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.SortBinaryArr" />
+    <configuration name="WordSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.WordSearch" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,19 +141,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinaryGap" />
-      <item itemvalue="Application.GasStation" />
-      <item itemvalue="Application.SortBinaryArr" />
-      <item itemvalue="Application.RainTrapping" />
-      <item itemvalue="Application.FrogJump" />
+      <item itemvalue="Application.RottenOrrange" />
+      <item itemvalue="Application.ConnectSticks" />
+      <item itemvalue="Application.WordSearch" />
+      <item itemvalue="Application.Subsets" />
+      <item itemvalue="Application.JumpGame" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FrogJump" />
-        <item itemvalue="Application.BinaryGap" />
-        <item itemvalue="Application.RainTrapping" />
-        <item itemvalue="Application.SortBinaryArr" />
-        <item itemvalue="Application.GasStation" />
+        <item itemvalue="Application.JumpGame" />
+        <item itemvalue="Application.Subsets" />
+        <item itemvalue="Application.WordSearch" />
+        <item itemvalue="Application.ConnectSticks" />
+        <item itemvalue="Application.RottenOrrange" />
       </list>
     </recent_temporary>
   </component>
@@ -192,60 +210,60 @@
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578631838939" />
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575019161502" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1582179035345">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1582872196612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582179035345" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582039593247" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1582179035345">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582872196612" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1582872196612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582179035345" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582039593247" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1582179035345">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582872196612" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1582872196612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582179035345" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582039593247" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1582179035345">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582937" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582872196612" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1582872196612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582179035345" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582039593247" />
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1578451876173">
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582872196612" />
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1582491861961">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578451876173" />
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578410342354" />
-    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1578451876173">
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582491861961" />
+    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1582491861961">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578451876173" />
-    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578410342354" />
-    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1578451876173">
+    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582491861961" />
+    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1582491861961">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578451876173" />
-    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578410342354" />
-    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1578451876173">
+    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582491861961" />
+    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1582491861961">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578451876173" />
-    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578410342354" />
+    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582491861961" />
     <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1575651763692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1575651763692" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1582178699658">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1582809359360">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1581399975622" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582178699658" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582035272372" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582713862216" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582809359360" />
     <state x="209" y="32" key="new project wizard" timestamp="1576572213052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
