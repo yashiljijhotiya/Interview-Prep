@@ -1,5 +1,6 @@
 package DesignPattern.Factory;
-
+/* factory pattern is also known as virtual constructor
+* */
 public class DriverFactory {
 
     public static void main(String[] args) {

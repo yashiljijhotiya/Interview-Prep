@@ -1,6 +1,8 @@
 package dp;
 
 import java.util.HashMap;
+import java.util.Map;
+import java.util.WeakHashMap;
 
 public class PartitionSumProblem {
 //recursive approach T(n) = 2^n
@@ -41,12 +43,38 @@ public class PartitionSumProblem {
         return foundPartition;
     }
 
-    public static void main(String[] args) {
-      int arr[] = {1,5,11,5};
-        if (isPartitonEqualSum(arr)) {
-            System.out.println("Partition is Possible !!");
-        } else {
-            System.out.println("Partition is Not Possible !!");
+    private static void test(){
+        String a = "yashil";
+        String b = "nancy";
+        String c = new String("hola");
+        String d = new String("bhola");
+
+        Map map = new WeakHashMap<>();
+
+        map.put(a, new Object());
+        map.put(b, new Object());
+        map.put(c, new Object());
+        map.put(d, new Object());
+
+        a = null;
+        b = null;
+        c = null;
+        d = null;
+
+        while (true) {
+            System.out.println("Size: " + map.size());
+            System.gc();
+//            System.out.println("Size: " + map.size());
         }
+    }
+
+    public static void main(String[] args) {
+        test();
+//      int arr[] = {1,5,11,5};
+//        if (isPartitonEqualSum(arr)) {
+//            System.out.println("Partition is Possible !!");
+//        } else {
+//            System.out.println("Partition is Not Possible !!");
+//        }
     }
 }

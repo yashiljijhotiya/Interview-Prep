@@ -35,7 +35,5 @@ public class BitBasic {
         evenOddTest(1111112);
         countNoOfSetBits(5);
         minNoOfBitsToConvert(11,15);
-
-
     }
 }

@@ -35,7 +35,9 @@ public class Spiral {
     }
     public static void main(String args[]){
         Spiral s = new Spiral();
-        int m [][] = {{1,2,3},{4,5,6},{7,8,9}};
+        int m [][] = {{1,2,3},
+                      {4,5,6},
+                      {7,8,9}};
         s.printSpiral(m);
     }
 }
