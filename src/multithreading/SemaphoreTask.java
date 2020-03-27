@@ -8,8 +8,7 @@ import java.util.stream.IntStream;
 
 /* Semaphore use for this scenario :- Consider there is service which will  only allow or permit 3 threads at a time to use it's service
 so to restrict the other thread to use this service it will  block other threads until it's one of it's permit is free for acquire.
-NOTE : When even we want to restrict/ manage the use of resource to limited, use semaphore
-
+NOTE: When even we want to restrict/ manage the use of resource to limited, use semaphore.
 * */
 public class SemaphoreTask {
 

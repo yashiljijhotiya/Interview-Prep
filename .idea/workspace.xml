@@ -2,12 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e813be7b-2372-4e81-ab79-72103461d6b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/DeadLockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/SemaphoreTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Mediator/AirCraftColleague.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Mediator/Aircraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Mediator/IATCMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/FirstNonRepeatingChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/ReverseWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/StringEncoding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/IntersectionTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/GoldMine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/SmallestKSortedRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/matrix/Transpose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem_solving/ChoclateWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sliding_window/LongestWindowDistinctChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sliding_window/PrintAllSubArrayDistinct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/Publisher_Subscriber/PubSubService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Publisher_Subscriber/PubSubService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/TestHackerRank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/MergeKSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/bit_manipulation/BitBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/bit_manipulation/BitBasic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/streams/StreamOperation$Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/streams/StreamOperation$Employee.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice/streams/StreamOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/streams/StreamOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streams/StreamOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/StreamOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestHackerRank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/MergeKSortedArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bit_manipulation/BitBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bit_manipulation/BitBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/SemaphoreTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/SemaphoreTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/HouseOfRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/HouseOfRobber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +68,13 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.StreamOperation">
-    <configuration name="BtreeBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Btree.BtreeBasic" />
+  <component name="RunManager" selected="Application.BitBasic">
+    <configuration name="BitBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bit_manipulation.BitBasic" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Btree.*" />
+          <option name="PATTERN" value="bit_manipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeKSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.MergeKSortedArray" />
+    <configuration name="GoldMine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.GoldMine" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeKSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.MergeKSortedArrays" />
+    <configuration name="ReverseWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.ReverseWord" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,8 +108,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintDialgonally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="matrix.PrintDialgonally" />
+    <configuration name="SmallestKSortedRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.SmallestKSortedRange" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Transpose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="matrix.Transpose" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
@@ -103,33 +134,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.StreamOperation" />
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.BtreeBasic" />
-      <item itemvalue="Application.MergeKSortedArray" />
-      <item itemvalue="Application.MergeKSortedArrays" />
-      <item itemvalue="Application.PrintDialgonally" />
-      <item itemvalue="Application.StreamOperation" />
+      <item itemvalue="Application.ReverseWord" />
+      <item itemvalue="Application.Transpose" />
+      <item itemvalue="Application.GoldMine" />
+      <item itemvalue="Application.SmallestKSortedRange" />
+      <item itemvalue="Application.BitBasic" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamOperation" />
-        <item itemvalue="Application.PrintDialgonally" />
-        <item itemvalue="Application.MergeKSortedArrays" />
-        <item itemvalue="Application.MergeKSortedArray" />
-        <item itemvalue="Application.BtreeBasic" />
+        <item itemvalue="Application.BitBasic" />
+        <item itemvalue="Application.Transpose" />
+        <item itemvalue="Application.SmallestKSortedRange" />
+        <item itemvalue="Application.GoldMine" />
+        <item itemvalue="Application.ReverseWord" />
       </list>
     </recent_temporary>
   </component>
@@ -190,30 +208,34 @@
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578631838939" />
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583847614290" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1584079646280">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1585206772361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1877" height="317" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607704" />
     <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584079646280" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1584079646280">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585206772361" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1585206772361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1877" height="317" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607704" />
     <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584079646280" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1584079646280">
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585206772361" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1585206772361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1877" height="317" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607703" />
     <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582937" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584079646280" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1584079646280">
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585206772361" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1585206772361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1877" height="317" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607704" />
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584079646280" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585206772361" />
     <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1582491861961">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -238,21 +260,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1584012234848" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583847517124">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585247614797">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="-1339" y="-171" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584432105664" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1581399975622" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1583316262905" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583847517124" />
-    <state x="209" y="32" key="new project wizard" timestamp="1576572213052">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="209" y="32" key="new project wizard/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1576572213052" />
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1578461628340">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/3.-1200.1920.1160@0.0.1536.824" timestamp="1584992874878" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585247614797" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1584345970989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578461628340" />
-    <state x="425" y="66" width="670" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1575651747398" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584345970989" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
