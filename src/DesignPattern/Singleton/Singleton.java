@@ -7,6 +7,12 @@ import java.util.concurrent.Executors;
 // double check lock can also be broken so to avoid this we use volatile keyword
 
 // creating singleton using enum has thread safety, safety against serialization and deserialization, safety against cloning and even reflection
+// Singleton pattern is used to create a configuration file which is used by whole project.
+/*Cache: We can use the cache as a singleton object as it can have a
+global point of reference and for all future calls to the cache object the client application will use the in-memory object.
+*
+* */
+
 public class Singleton  implements  Cloneable, Serializable{
 
     private static  volatile Singleton singleton = null;

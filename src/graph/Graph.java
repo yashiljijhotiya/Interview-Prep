@@ -28,13 +28,22 @@ public class Graph {
 
     public void bfs(int src, int node){
         Queue<Integer> q = new LinkedList<>();
-        boolean arr[] = new boolean[node];
-        arr[src] = true;
+        boolean visited[] = new boolean[node];
+        visited[src] = true;
         q.add(src);
         while(!q.isEmpty()){
             int s = q.poll();
-            System.out.println(" "+s);
-
+            if(!visited[s]){
+                visited[s] = true;
+                System.out.println(" "+s);
+            }
+            List<Integer> list = g.get(s);
+            for(int i : list){
+                if(!visited[i]){
+                    visited[i] = true;
+                    q.add(i);
+                }
+            }
         }
     }
 
@@ -57,7 +66,8 @@ public class Graph {
         g.addEdge(3,2);
         g.addEdge(2,1);
         g.addEdge(3,4);
-        g.printGraph();
+        //g.printGraph();
+        g.bfs(3, 6);
 
     }
 }

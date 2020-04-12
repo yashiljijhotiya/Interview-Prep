@@ -34,6 +34,6 @@ public class LongestWindowDistinctChar {
     }
     public static void main(String[] args) {
         String str = "abbcdafeegh";
-        System.out.println("longest substring contains all distinct character is :" + longestWindow(str));
+        System.out.println("longest substring contains all distinct character is :" + longestWindow("bab"));
     }
 }

@@ -9,7 +9,7 @@ public class GasStation {
             return -1;
         }
         for(int i = 0; i < gas.length; i++){
-            surplus = surplus + gas[i] - cost[i];
+            surplus +=  gas[i] - cost[i];
             if(surplus < 0){
                 start = i+1;
                 deficiency += surplus;

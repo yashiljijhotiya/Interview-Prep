@@ -20,7 +20,7 @@ public final  class User {
         return lastName;
     }
 
-    public Address getAddress() throws CloneNotSupportedException {
+    public Address getAddress()  {
         return (Address) address;
     }
 }

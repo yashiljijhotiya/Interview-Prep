@@ -3,22 +3,23 @@ package problem_solving;
 public class ChoclateWrapper {
 
 
-    private static void maxChoclateBuy(int price, int money, int wrapperToBuy){
+    private static void maxChocolateBuy(int price, int money, int wrapperToBuy){
         if(money < 0 || money < price){
-            System.out.println("Sorry no choclate can be buy with the money!");
+            System.out.println("Sorry no chocolate can be buy with the money!");
+            return;
         }
-        int total = 0;
-        int rem = 0;
-        total =  money/price;
-        if(total < wrapperToBuy){
-            System.out.println("total choclate can be buy are : " +total);
-        }
-        while(total > wrapperToBuy){
-            rem = total/wrapperToBuy;
+        int totalChocolateBought =  money/price;
+        int collectedWrapper = totalChocolateBought;
 
+        while(collectedWrapper >= wrapperToBuy){
+            int bought = collectedWrapper/wrapperToBuy;
+            int rem = collectedWrapper%wrapperToBuy;
+            collectedWrapper = rem + bought;
+            totalChocolateBought += bought;
         }
+        System.out.printf("total chocolate bought are :  " + totalChocolateBought);
     }
     public static void main(String[] args) {
-        maxChoclateBuy(1,15,3);
+        maxChocolateBuy(1,-11,3);
     }
 }

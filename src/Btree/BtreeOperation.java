@@ -35,6 +35,7 @@ public class BtreeOperation {
         return isBst(root.left, min, root.data) && isBst(root.right, root.data, max);
     }
 
+
     private static void lotNew(BNode root){
         if(root == null)
             return;

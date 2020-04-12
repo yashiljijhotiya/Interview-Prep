@@ -2,7 +2,298 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e813be7b-2372-4e81-ab79-72103461d6b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/disjoint_set/DetectCycleUndirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/disjoint_set/DisjointSetImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/disjoint_set/MergingCommunities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/disjoint_set/isFriend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/GraphProblems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview_question/BlumeGlobal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview_question/DisjointSetAcko.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/matrix/RotateMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/ProducerConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadYield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/BNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/BNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/BTreeToBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/BTreeToBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/BtreeBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/BtreeBasic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/BtreeHeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/BtreeHeight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/BtreeOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/BtreeOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/ConnectAllNodeAtSameLevel$ConnectNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/ConnectAllNodeAtSameLevel$ConnectNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/ConnectAllNodeAtSameLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/ConnectAllNodeAtSameLevel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/LCA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/LCA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/MinDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/MinDepth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/MirrorTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/MirrorTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/SpiralOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/SpiralOrderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/VerOrderNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/VerOrderNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/VerticalOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/VerticalOrderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Builder/NutritionFact$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Builder/NutritionFact$NutritionBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Builder/NutritionFact$NutritionBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Builder/NutritionFact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Builder/NutritionFact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Builder/User$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Builder/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Builder/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Builder/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Builder/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Decorator/Camera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Decorator/Camera.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Decorator/CameraAccessoriesDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Decorator/CameraAccessoriesDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Decorator/CameraShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Decorator/CameraShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Decorator/MarK4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Decorator/MarK4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Decorator/Mark5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Decorator/Mark5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Decorator/ZoomLensDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Decorator/ZoomLensDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/DependencyInjection/EnglishSpellSchecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/DependencyInjection/EnglishSpellSchecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/DependencyInjection/HindiSpellChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/DependencyInjection/HindiSpellChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/DependencyInjection/ISpellChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/DependencyInjection/ISpellChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/DependencyInjection/TextEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/DependencyInjection/TextEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/DependencyInjection/TextEditorDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/DependencyInjection/TextEditorDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Factory/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Factory/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Factory/CarFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Factory/CarFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Factory/CarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Factory/CarFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Factory/CarType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Factory/CarType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Factory/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Factory/DriverFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Factory/LuxuryCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Factory/LuxuryCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Factory/SUVCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Factory/SUVCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Factory/SedanCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Factory/SedanCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Mediator/AirCraftColleague.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Mediator/AirCraftColleague.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Mediator/Aircraft.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Mediator/Aircraft.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Mediator/IATCMediator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Mediator/IATCMediator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Singleton/SingleTonEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Singleton/SingleTonEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Singleton/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Singleton/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/observer/DriverClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/observer/DriverClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/observer/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/observer/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/observer/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/observer/Observer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/observer/Publisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/observer/Publisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/observer/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/observer/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/observer/User1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/observer/User1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/observer/User2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/observer/User2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/observer/User3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/observer/User3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java/Anonymous.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java/Anonymous.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java/Driver$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java/Driver$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java/ImmutableClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java/ImmutableClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java/ImmutableDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java/ImmutableDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java/TestStatic$A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java/TestStatic$A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java/TestStatic$B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java/TestStatic$B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java/TestStatic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java/TestStatic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java8/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java8/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java8/HashMapOperations$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java8/HashMapOperations$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java8/HashMapOperations$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java8/HashMapOperations$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java8/HashMapOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java8/HashMapOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java8/HashMapSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java8/HashMapSorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java8/RemoveDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java8/RemoveDuplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java8/SortEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java8/SortEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java8/StreamOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java8/StreamOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Java8/TestInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Java8/TestInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/LRUCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/LRUNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/LRUNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/META-INF/Practice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Publisher_Subscriber/IPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Publisher_Subscriber/IPublisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Publisher_Subscriber/ISubscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Publisher_Subscriber/ISubscriber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Publisher_Subscriber/PubSubService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Publisher_Subscriber/PubSubService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Publisher_Subscriber/Publisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Publisher_Subscriber/Publisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Publisher_Subscriber/Subscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Publisher_Subscriber/Subscriber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/StackOrderOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/StackOrderOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/Anagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/CountLRWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/CountLRWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/CountLetters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/CountLetters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/CountSequenceAlphabet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/CountSequenceAlphabet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/FirstNonRepeatingChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/FirstNonRepeatingChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/FirstRepeatingWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/FirstRepeatingWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/LSWithKCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/LSWithKCharacters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/LongestPalindromicSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/LongestPalindromicSubstring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/MinCharToPallindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/MinCharToPallindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/NoAdjacentCharSame$Key.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/NoAdjacentCharSame$Key.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/NoAdjacentCharSame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/NoAdjacentCharSame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/OneExtraCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/OneExtraCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/RearrangeString$KeyFreq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/RearrangeString$KeyFreq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/RearrangeString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/RearrangeString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/RemoveNFrequencyElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/RemoveNFrequencyElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/ReverseWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/ReverseWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/SortCharacterByFreq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/SortCharacterByFreq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/StringEncoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/StringEncoding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/StringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/StringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/Subsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/Subsequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/TwoCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/TwoCharacters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/UncommonChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/UncommonChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/SystemDesign/Elevator/Elevator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/SystemDesign/Elevator/Elevator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/SystemDesign/Elevator/ElevatorDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/SystemDesign/Elevator/ElevatorDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/SystemDesign/Elevator/ElevatorSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/SystemDesign/Elevator/ElevatorSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/SystemDesign/Elevator/Enums/ElevatorDirection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/SystemDesign/Elevator/Enums/ElevatorDirection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/SystemDesign/Elevator/Enums/ElevatorStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/SystemDesign/Elevator/Enums/ElevatorStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/SystemDesign/Elevator/Exception/InvalidNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/SystemDesign/Elevator/Exception/InvalidNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/SystemDesign/Elevator/IElevatorSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/SystemDesign/Elevator/IElevatorSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/CountSumPairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/CountSumPairs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/CountZeroInSortedArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/CountZeroInSortedArr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/EqualZeroOneSubaArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/EqualZeroOneSubaArr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/FindAllMissingNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/FindAllMissingNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/IntersectionTwoArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/IntersectionTwoArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/KLargestElem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/KLargestElem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/LargestElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/LargestElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/LargetSubArrContigouselement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/LargetSubArrContigouselement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/LongestContiguousSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/LongestContiguousSubsequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/MaxDifferenceInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/MaxDifferenceInArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/MaxProfitBuyAndSellOneTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/MaxProfitBuyAndSellOneTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/MedianTwoSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/MedianTwoSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/MergeKSortedArrays$PQNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/MergeKSortedArrays$PQNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/MergeKSortedArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/MergeKSortedArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/NGE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/NGE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/NoOfIslands.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/NoOfIslands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/NoSwapSortedArr$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/NoSwapSortedArr$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/NoSwapSortedArr$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/NoSwapSortedArr$Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/NoSwapSortedArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/NoSwapSortedArr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/OddOccurenceInArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/OddOccurenceInArr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/Pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/Pattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/RainTrapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/RainTrapping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/RemoveDuplicateFromSortedArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/RemoveDuplicateFromSortedArr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/RescueBoatProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/RescueBoatProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/Seggregate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/Seggregate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/SmallestRangeKSortedArray$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/SmallestRangeKSortedArray$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/SmallestRangeKSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/SmallestRangeKSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/SortBinaryArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/SortBinaryArr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/StockBuySell$Interval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/StockBuySell$Interval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/StockBuySell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/StockBuySell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/TourComplete$PetrolPump.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/TourComplete$PetrolPump.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/TourComplete.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/TourComplete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/subArrayWithZeroSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/subArrayWithZeroSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/backtracking/Boggle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/backtracking/Boggle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/backtracking/NQueenProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/backtracking/NQueenProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/backtracking/RatMaze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/backtracking/RatMaze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/bit_manipulation/BitBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/bit_manipulation/BitBasic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/bit_manipulation/CountNumberOfBitsBtwTwoNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/bit_manipulation/CountNumberOfBitsBtwTwoNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/bit_manipulation/UniqueNumber3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/bit_manipulation/UniqueNumber3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/bst/BSTBasicOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/bst/BSTBasicOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/bst/BSTTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/bst/BSTTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/bst/BstNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/bst/BstNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/bst/BstOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/bst/BstOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/bst/LCA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/bst/LCA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/bst/SortedArrayToBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/bst/SortedArrayToBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/collections/ArrayListOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/collections/ArrayListOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/collections/HashMapOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/collections/HashMapOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/comparable_comparator/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/comparable_comparator/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/concurrency/BQImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/concurrency/BQImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/concurrency/BlockingQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/concurrency/BlockingQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/concurrency/ProducerConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/concurrency/ProducerConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/concurrency/ThreadEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/concurrency/ThreadEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/dp/CoinChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/dp/CoinChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/dp/DistinctPalindromicSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/dp/DistinctPalindromicSubstring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/dp/GoldMine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/dp/GoldMine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/dp/Job.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/dp/Job.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/dp/JobSelection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/dp/JobSelection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/dp/LongestPalindromicSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/dp/LongestPalindromicSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/dp/LongestPalindromicSubString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/dp/LongestPalindromicSubString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/dp/LongestPallindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/dp/LongestPallindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/dp/NoWaysCoverDist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/dp/NoWaysCoverDist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/dp/PartitionSumProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/dp/PartitionSumProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/dp/SubetSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/dp/SubetSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/graph/GNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/graph/GNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/graph/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/graph/GraphNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/graph/GraphNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/graph/GraphOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/graph/GraphOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/graph/GraphTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/graph/GraphTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/hashing/KMostFrequentElement$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/hashing/KMostFrequentElement$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/hashing/KMostFrequentElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/hashing/KMostFrequentElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/hashing/MaxLenZeroSumSub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/hashing/MaxLenZeroSumSub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/heap/MedianRunningStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/heap/MedianRunningStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/interview_question/Genpact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/interview_question/Genpact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/interview_question/Genpact2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/interview_question/Genpact2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/interview_question/MinProductTwoNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/interview_question/MinProductTwoNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/interview_question/MostUsedURL$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/interview_question/MostUsedURL$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/interview_question/MostUsedURL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/interview_question/MostUsedURL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/interview_question/PowerOfTwoDivisor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/interview_question/PowerOfTwoDivisor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/interview_question/RemoveKIdenticalCharacter$Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/interview_question/RemoveKIdenticalCharacter$Entity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/interview_question/RemoveKIdenticalCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/interview_question/RemoveKIdenticalCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/interview_question/SearchQuery$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/interview_question/SearchQuery$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/interview_question/SearchQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/interview_question/SearchQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/interview_question/SearchQueryResult$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/interview_question/SearchQueryResult$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/interview_question/SearchQueryResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/interview_question/SearchQueryResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/interview_question/practice/AnagramTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/interview_question/practice/AnagramTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/interview_question/practice/SLLNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/interview_question/practice/SLLNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/interview_question/practice/SLLOPerations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/interview_question/practice/SLLOPerations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/io/ArrayAsInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/io/ArrayAsInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/io/CompetitiveShortcuts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/io/CompetitiveShortcuts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/io/InputOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/io/InputOutput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/leetcode/ConnectSticks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/leetcode/ConnectSticks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/leetcode/JumpGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/leetcode/JumpGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/leetcode/RottenOrrange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/leetcode/RottenOrrange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/leetcode/SmallestKSortedRange$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/leetcode/SmallestKSortedRange$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/leetcode/SmallestKSortedRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/leetcode/SmallestKSortedRange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/leetcode/Subsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/leetcode/Subsets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/leetcode/WordSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/leetcode/WordSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/linkedList/FlattenLL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/linkedList/FlattenLL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/linkedList/LLImportant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/linkedList/LLImportant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/linkedList/LinkedListOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/linkedList/LinkedListOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/linkedList/LinkedListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/linkedList/LinkedListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/linkedList/MergeSorted.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/linkedList/MergeSorted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/linkedList/MultiNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/linkedList/MultiNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/linkedList/PlusOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/linkedList/PlusOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/linkedList/ReverseList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/linkedList/ReverseList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/linkedList/SLLNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/linkedList/SLLNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/linkedList/ZigZag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/linkedList/ZigZag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/mathematics/BinaryGap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/mathematics/BinaryGap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/mathematics/GCD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/mathematics/GCD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/mathematics/MultipleOf3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/mathematics/MultipleOf3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/mathematics/ValidSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/mathematics/ValidSquare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/matrix/KthElementInSortedMatrix$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/matrix/KthElementInSortedMatrix$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/matrix/KthElementInSortedMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/matrix/KthElementInSortedMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/matrix/Matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/matrix/Matrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/matrix/MaxNoOfOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/matrix/MaxNoOfOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/matrix/PrintDialgonally.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/matrix/PrintDialgonally.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/matrix/SetZero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/matrix/SetZero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/matrix/Spiral.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/matrix/Spiral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/matrix/Transpose.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/matrix/Transpose.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/multithreading/BlockingQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/multithreading/BlockingQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/multithreading/DeadLockExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/multithreading/DeadLockExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/multithreading/ExecutorServiceExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/multithreading/ExecutorServiceExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/multithreading/ExecutorServiceExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/multithreading/ExecutorServiceExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/multithreading/ProducerConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/multithreading/ProducerConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/multithreading/SemaphoreTask$Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/multithreading/SemaphoreTask$Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/multithreading/SemaphoreTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/multithreading/SemaphoreTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/multithreading/SynchHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/multithreading/SynchHashMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/multithreading/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/multithreading/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/multithreading/ThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/multithreading/ThreadDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/multithreading/ThreadDemoRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/multithreading/ThreadDemoRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/BinaryGap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/problem_solving/BinaryGap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/FrogJump.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/problem_solving/FrogJump.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/GasStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/problem_solving/GasStation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/HouseOfRobber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/problem_solving/HouseOfRobber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/KClosestsPointToOrigin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/problem_solving/KClosestsPointToOrigin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/MeetingRoom$Interval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/problem_solving/MeetingRoom$Interval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/MeetingRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/problem_solving/MeetingRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/NextPallindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/problem_solving/NextPallindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/OrderOfOneOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/problem_solving/OrderOfOneOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/PaintHouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/problem_solving/PaintHouse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/PassingCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/problem_solving/PassingCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/Subsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/problem_solving/Subsets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/TaskScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/problem_solving/TaskScheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/recursion/BalancedParanthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/recursion/BalancedParanthesis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/sliding_window/BuyingPlot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/sliding_window/BuyingPlot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/sliding_window/LongestWindowDistinctChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/sliding_window/LongestWindowDistinctChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/sliding_window/MaxOfEveryKWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/sliding_window/MaxOfEveryKWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/sliding_window/MaxSumOfK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/sliding_window/MaxSumOfK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/sliding_window/PrintAllSubArrayDistinct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/sliding_window/PrintAllSubArrayDistinct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/sliding_window/SubStringPatternMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/sliding_window/SubStringPatternMatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/sliding_window/SumOfAllKElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/sliding_window/SumOfAllKElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/streams/StreamOperation$Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/streams/StreamOperation$Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/streams/StreamOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/streams/StreamOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Btree/BtreeOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Btree/BtreeOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/DependencyInjection/ISpellChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/DependencyInjection/ISpellChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/DependencyInjection/TextEditorDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/DependencyInjection/TextEditorDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/Singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/ImmutableDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/ImmutableDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/KLargestElem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/KLargestElem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/RemoveDuplicateFromSortedArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/RemoveDuplicateFromSortedArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/GNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/GNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/GraphOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/GraphOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matrix/Spiral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrix/Spiral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/ChoclateWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/ChoclateWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/GasStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/GasStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sliding_window/LongestWindowDistinctChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sliding_window/LongestWindowDistinctChar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,25 +324,25 @@
   <component name="ProjectId" id="1Qed4mJQff1Koib5ha2p0m9FvYV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553528102512" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/spring-boot-docker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.BitBasic">
-    <configuration name="BitBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bit_manipulation.BitBasic" />
+  <component name="RunManager" selected="Application.ThreadYield">
+    <configuration name="BlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.BlockingQueue" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bit_manipulation.*" />
+          <option name="PATTERN" value="multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +350,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoldMine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.GoldMine" />
+    <configuration name="ImmutableDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.ImmutableDriver" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="Java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +363,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.ReverseWord" />
+    <configuration name="ProducerConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ProducerConsumerDemo" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +376,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestKSortedRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.SmallestKSortedRange" />
+    <configuration name="ThreadJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadJoin" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +389,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Transpose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="matrix.Transpose" />
+    <configuration name="ThreadYield" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadYield" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="matrix.*" />
+          <option name="PATTERN" value="multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,33 +403,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BitBasic" />
-      <item itemvalue="Application.GoldMine" />
-      <item itemvalue="Application.ReverseWord" />
-      <item itemvalue="Application.SmallestKSortedRange" />
-      <item itemvalue="Application.Transpose" />
+      <item itemvalue="Application.ImmutableDriver" />
+      <item itemvalue="Application.ThreadYield" />
+      <item itemvalue="Application.ThreadJoin" />
+      <item itemvalue="Application.BlockingQueue" />
+      <item itemvalue="Application.ProducerConsumerDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BitBasic" />
-        <item itemvalue="Application.Transpose" />
-        <item itemvalue="Application.SmallestKSortedRange" />
-        <item itemvalue="Application.GoldMine" />
-        <item itemvalue="Application.ReverseWord" />
+        <item itemvalue="Application.ThreadYield" />
+        <item itemvalue="Application.ProducerConsumerDemo" />
+        <item itemvalue="Application.BlockingQueue" />
+        <item itemvalue="Application.ThreadJoin" />
+        <item itemvalue="Application.ImmutableDriver" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -167,77 +446,85 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1584092219409">
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1586691850108">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578461313960" />
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584092219409" />
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586691850108" />
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586011636272">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1586011636272" />
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583867778456">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583867778456" />
-    <state x="424" y="6" key="CommitChangelistDialog2" timestamp="1578944629907">
+    <state x="424" y="6" key="CommitChangelistDialog2" timestamp="1586341004566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578944629907" />
-    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1585525842463">
+    <state x="424" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586341004566" />
+    <state width="454" height="466" key="DebuggerActiveHint" timestamp="1586446797267">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="454" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1586446797267" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1586170884572">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578631838939" />
-    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585525842463" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1585206772361">
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586170884572" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1586692536423">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607704" />
     <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585206772361" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1585206772361">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586692536423" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1586692536422">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607704" />
     <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585206772361" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1585206772361">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586692536422" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1586692536422">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607703" />
     <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582937" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585206772361" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1585206772361">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586692536422" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1586692536422">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607704" />
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585206772361" />
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1582491861961">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586692536422" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586509943435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578451876173" />
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582491861961" />
-    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1582491861961">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586509943435" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1586509943435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578451876173" />
-    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582491861961" />
-    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1582491861961">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586509943435" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1586509943435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578451876173" />
-    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582491861961" />
-    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1582491861961">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586509943435" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1586509943435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578451876173" />
-    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582491861961" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586509943435" />
     <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1584012234848">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1584012234848" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585525709934">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586317176457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.-110.1920.1160@0.0.1536.824" timestamp="1585309567480" />
@@ -245,7 +532,11 @@
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1581399975622" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1583316262905" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/3.-1200.1920.1160@0.0.1536.824" timestamp="1584992874878" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585525709934" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586317176457" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1586584904958">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1586584904958" />
     <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1584345970989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

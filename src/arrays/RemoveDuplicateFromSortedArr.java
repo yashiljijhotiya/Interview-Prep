@@ -4,6 +4,11 @@ public class RemoveDuplicateFromSortedArr {
 
     private static int removeDuplicate(int arr[]){
         int n =  arr.length;
+
+        if(arr == null){
+            return -99999999;
+        }
+
         if(n == 0 || n == 1){
             return n;
         }

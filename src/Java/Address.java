@@ -31,6 +31,15 @@ public class Address implements  Cloneable{
         return city;
     }
 
+    @Override
+    public String toString() {
+        return "Address{" +
+                "firstLine='" + firstLine + '\'' +
+                ", secondLine='" + secondLine + '\'' +
+                ", city='" + city + '\'' +
+                '}';
+    }
+
     public void setCity(String city) {
         this.city = city;
     }
