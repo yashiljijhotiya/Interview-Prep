@@ -5,7 +5,7 @@ package multithreading;
 *The java.lang.Thread.yield() : this method causes the currently executing thread object to temporarily pause
 * and allow other threads to execute which are  having same priority or higher priority. If threads have same
 * priority then scheduler will decide which thread will run. If threads have lower priority than the same thread will
-* continue to execute.
+* continue to execute. It can only make a thread from Running State to Runnable State, not in wait or blocked state.
 *
 * public static native void yield() - here native means it's implementation is not provided by java. The implementation
 * is system specific.

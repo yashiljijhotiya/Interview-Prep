@@ -17,19 +17,6 @@ public class FirstRepeatingWord {
         HashMap<String, Integer> hm = new HashMap<>();
         HashSet<String> hs = new HashSet<>();
 
-//        for(String str : s.split(", ")){
-//            if(!hm.containsKey(str)){
-//                hm.put(str, 1);
-//            }
-//            else{
-//                hm.put(str, hm.get(str) +1);
-//            }
-//        }
-//
-//        for(Map.Entry<String, Integer> entry : hm.entrySet()){
-//            System.out.println("Key : " + entry.getKey() +  " || "+ "value :" + entry.getValue());
-//        }
-//
         for(String str : s.split(", ")){
             if(!hs.contains(str)){
                 hs.add(str);

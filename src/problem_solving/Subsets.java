@@ -10,6 +10,13 @@ public class Subsets {
         if(arr == null || arr.length == 0){
             return null;
         }
+        //[1,2,3]  [] [1] [2] [3] [1,2] [1,3] [2,3] [1,2,3]
+        double totalSubsets = Math.pow(2, arr.length);
+
+        for(int i = 0; i < totalSubsets; i++){
+
+        }
+
         subsets.add(new ArrayList<>());
 
         return subsets;
