@@ -26,6 +26,6 @@ public class JumpGame {
 
     public static void main(String[] args) {
         int steps [] = {2,3,1,1,4};
-        minJumpToReachEnd(steps);
+        System.out.println(minJumpToReachEnd(steps));
     }
 }

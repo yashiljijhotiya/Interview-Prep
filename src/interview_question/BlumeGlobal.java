@@ -4,16 +4,15 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class BlumeGlobal {
-    private static final int MAX_CHAR = 26;
 
     private static int minWindow(String str){
         Set<Character> set = new HashSet<>();
-        int max_len = Integer.MIN_VALUE, firstPtr = 0, secondPtr = 0;
+        int maxLen = Integer.MIN_VALUE, firstPtr = 0, secondPtr = 0;
 
         while(secondPtr < str.length()){
             if(!set.contains(str.charAt(secondPtr))){
                 set.add(str.charAt(secondPtr));
-                max_len = Math.max(max_len, set.size());
+                maxLen = Math.max(maxLen, set.size());
                 secondPtr++;
             }
             else {
@@ -22,7 +21,7 @@ public class BlumeGlobal {
             }
         }
         System.out.println(str.substring(firstPtr,secondPtr));
-        return max_len;
+        return maxLen;
 
     }
     public static void main(String[] args) {
@@ -31,5 +30,6 @@ public class BlumeGlobal {
         System.out.println(minWindow("aabcce"));
         System.out.println(minWindow("dabbcabcd"));
         System.out.println(minWindow("ABDEFGABEF"));
+        System.out.println(minWindow("pwwkew"));
     }
 }

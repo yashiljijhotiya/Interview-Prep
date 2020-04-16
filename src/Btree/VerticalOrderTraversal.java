@@ -1,9 +1,6 @@
 package Btree;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
-import java.util.TreeMap;
+import java.util.*;
 
 public class VerticalOrderTraversal {
 
@@ -35,12 +32,22 @@ public class VerticalOrderTraversal {
                     q.add(new VerOrderNode(node.dist+1, node.root.right));
                 }
             }
+
+            for(Map.Entry<Integer, List<BNode>> entry : disMap.entrySet()){
+                entry.getValue().forEach(i -> {
+                    System.out.print(i.data + "  ");
+                });
+                System.out.println();
+            }
         }
 
     }
 
     private static void printBottomView(){
 
+        for(Map.Entry<Integer, List<BNode>> entry : disMap.entrySet()){
+            System.out.println(entry.getValue().get(0).data);
+        }
     }
 
     private static void printTopView(){
@@ -49,6 +56,28 @@ public class VerticalOrderTraversal {
 
 
     public static void main(String[] args) {
+        BNode root = new BNode(1);
+        root.left = new BNode(2);
+        root.right = new BNode(3);
+        root.left.left = new BNode(4);
+        root.left.right = new BNode(5);
+        root.right.left = new BNode(6);
+        root.right.right = new BNode(7);
+        root.right.left.right = new BNode(8);
+        root.right.right.right = new BNode(9);
+        System.out.println("Vertical Order traversal is");
+        verticalOrderTraversal(root);
+        //Top view 4,2,1,3,7,9
+        System.out.println("Top view of Binary Tree is :");
+        BtreeUtil.topView(root);
+        //Bottom view 4,2,6,8,7,9
+        System.out.println("Bottom view of Binary Tree is :");
+        BtreeUtil.bottomView(root);
+
+
+
 
     }
+
+
 }

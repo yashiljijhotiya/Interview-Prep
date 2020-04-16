@@ -2,7 +2,7 @@ package leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// TC : O(2^n)
 public class Subsets {
     private static List<List<Integer>> printAllSubSet(int num[]){
         List<List<Integer>> subsets = new ArrayList<>();
@@ -10,19 +10,17 @@ public class Subsets {
             System.out.println("No subset possible");
             return null;
         }
-
-        generateSubsets(0, num, new ArrayList<Integer>(), subsets);
+        subsets.add(new ArrayList<>());
+        for(int currentNum : num){
+            int n = subsets.size();
+            for(int i = 0; i < n; i++){
+              List<Integer> set = new ArrayList<>(subsets.get(i));
+              set.add(currentNum);
+              subsets.add(set);
+            }
+        }
 
       return subsets;
-    }
-
-    private static void generateSubsets(int index, int num[], List<Integer> curr, List<List<Integer>> subsets){
-      subsets.add(new ArrayList<>(curr));
-      for(int i = index; i < num.length; i++){
-          curr.add(num[i]);
-          generateSubsets(index+1, num, curr,subsets);
-          curr.remove(curr.size()-1);
-      }
     }
     public static void main(String[] args) {
         int num [] = {1,2,3};

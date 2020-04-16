@@ -5,7 +5,7 @@ import org.w3c.dom.ls.LSOutput;
 public class MaxSumOfK {
 
     private static int maxSumOfKSizeWindow(int arr[], int k){
-        int max_sum = Integer.MIN_VALUE;
+        int max_sum ;
         int sum = 0;
         int len = arr.length;
 
