@@ -2,25 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e813be7b-2372-4e81-ab79-72103461d6b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Btree/BtreeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/MergeInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedList/AddList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedList/ListUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedList/Rearrange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/MinCostPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/TotalPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/matrix/Diagonal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/matrix/GoldMine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/matrix/ZigZag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/DeadLockInterview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem_solving/NextPermutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/interview_question/BlumeGlobal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/interview_question/BlumeGlobal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/leetcode/JumpGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/leetcode/JumpGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/leetcode/Subsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/leetcode/Subsets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/FruitBasketProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/problem_solving/FruitBasketProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/sliding_window/LongestWindowDistinctChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/sliding_window/LongestWindowDistinctChar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/sliding_window/MaxSumOfK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/sliding_window/MaxSumOfK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Btree/SpiralOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Btree/SpiralOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Btree/VerticalOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Btree/VerticalOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interview_question/BlumeGlobal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview_question/BlumeGlobal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/JumpGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Subsets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sliding_window/LongestWindowDistinctChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sliding_window/LongestWindowDistinctChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sliding_window/MaxSumOfK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sliding_window/MaxSumOfK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/EqualZeroOneSubaArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/EqualZeroOneSubaArr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/bst/LCA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/bst/LCA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/NextPallindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/EqualZeroOneSubaArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/EqualZeroOneSubaArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bst/LCA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bst/LCA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/NextPallindrome.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +58,13 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.EqualZeroOneSubaArr">
-    <configuration name="AddList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.AddList" />
+  <component name="RunManager" selected="Application.GoldMine">
+    <configuration name="Diagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="matrix.Diagonal" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.*" />
+          <option name="PATTERN" value="matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualZeroOneSubaArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.EqualZeroOneSubaArr" />
+    <configuration name="FruitBasketProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem_solving.FruitBasketProblem" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="problem_solving.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rearrange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.Rearrange" />
+    <configuration name="GoldMine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="matrix.GoldMine" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedList.*" />
+          <option name="PATTERN" value="matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Btree.SpiralOrderTraversal" />
+    <configuration name="TotalPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.TotalPaths" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Btree.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerticalOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Btree.VerticalOrderTraversal" />
+    <configuration name="ZigZag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="matrix.ZigZag" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Btree.*" />
+          <option name="PATTERN" value="matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,19 +125,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Rearrange" />
-      <item itemvalue="Application.AddList" />
-      <item itemvalue="Application.VerticalOrderTraversal" />
-      <item itemvalue="Application.SpiralOrderTraversal" />
-      <item itemvalue="Application.EqualZeroOneSubaArr" />
+      <item itemvalue="Application.TotalPaths" />
+      <item itemvalue="Application.ZigZag" />
+      <item itemvalue="Application.Diagonal" />
+      <item itemvalue="Application.FruitBasketProblem" />
+      <item itemvalue="Application.GoldMine" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EqualZeroOneSubaArr" />
-        <item itemvalue="Application.SpiralOrderTraversal" />
-        <item itemvalue="Application.VerticalOrderTraversal" />
-        <item itemvalue="Application.AddList" />
-        <item itemvalue="Application.Rearrange" />
+        <item itemvalue="Application.GoldMine" />
+        <item itemvalue="Application.FruitBasketProblem" />
+        <item itemvalue="Application.Diagonal" />
+        <item itemvalue="Application.ZigZag" />
+        <item itemvalue="Application.TotalPaths" />
       </list>
     </recent_temporary>
   </component>
@@ -190,63 +185,63 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="424" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586797970029" />
-    <state width="454" height="466" key="DebuggerActiveHint" timestamp="1587067171555">
+    <state width="454" height="466" key="DebuggerActiveHint" timestamp="1587153331504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="454" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1587067171555" />
+    <state width="454" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1587153331504" />
     <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1586170884572">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578631838939" />
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586170884572" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587069451966">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587158781985">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607704" />
     <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587069451966" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1587069451966">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587158781985" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1587158781985">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607704" />
     <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587069451966" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1587069451966">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587158781985" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1587158781985">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607703" />
     <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582937" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587069451966" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1587069451966">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587158781985" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1587158781985">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607704" />
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587069451966" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1587067249970">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587158781985" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1587154666493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578451876173" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587067249970" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1587067249970">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587154666493" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1587154666493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578451876173" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587067249970" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1587067249970">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587154666493" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1587154666493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578451876173" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587067249970" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1587067249970">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587154666493" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1587154666493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578451876173" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587067249970" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587154666493" />
     <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1584012234848">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
