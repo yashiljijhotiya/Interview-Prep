@@ -34,6 +34,7 @@ public class PlusOne {
         }
         temp = temp.next;
     }
+    // 1->4->9->4
 
     notNine.data++;
     notNine = notNine.next;

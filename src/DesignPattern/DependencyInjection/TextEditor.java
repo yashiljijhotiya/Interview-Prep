@@ -1,7 +1,7 @@
 package DesignPattern.DependencyInjection;
 
 public class TextEditor {
-    private ISpellChecker spellChecker;
+    private static ISpellChecker spellChecker;
     private String word;
     public TextEditor(ISpellChecker spellChecker){
         this.spellChecker = spellChecker;

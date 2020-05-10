@@ -31,7 +31,7 @@ public class StringEncoding {
     }
 
     public static void main(String[] args) {
-        String str =  "a";
+        String str =  "aabc";
         System.out.println(encodeString(str));
     }
 }

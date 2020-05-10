@@ -25,6 +25,7 @@ public class KLargestElem {
         if(arr == null || arr.length == 0 || k > arr.length){
             return;
         }
+        //1, 5, 12, 2, 11, 5    k = 4    12,5,1
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
         for(int i : arr){
             maxHeap.add(i);
@@ -85,6 +86,7 @@ public class KLargestElem {
        // System.out.println("Kth largest elem is : " + l.getKLargest(arr, 2));
         //int arr[] = {2, 1, 2, 1, 2, 1, 3, 4, 5, 2, 1, 2, 1, 9, 8, 5, 3, 3, 3, 4, 6, 7, 10, 11, 6, 9};
         //countAlphabet(arr,10);
-        printKthSmallest(arr,5);
+        int s[] = {1, 5, 12, 2, 11, 5};
+        printKthSmallest(s,4);
     }
 }

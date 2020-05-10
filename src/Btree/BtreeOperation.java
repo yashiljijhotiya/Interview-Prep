@@ -179,7 +179,7 @@ public class BtreeOperation {
 
     private static BNode mirrorOfBTree(BNode root){
         if(root == null){
-            return root;
+            return null;
         }
         else {
             mirrorOfBTree(root.left);

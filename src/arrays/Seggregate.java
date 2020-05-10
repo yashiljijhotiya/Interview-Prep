@@ -9,7 +9,7 @@ public class Seggregate {
 
         int left = 0, right = arr.length-1;
         System.out.println("array before segregation");
-        print(arr);
+        ArrayUtils.print(arr);
 
         while (left < right){
             while (arr[left] == 0 && left < right){
@@ -26,54 +26,33 @@ public class Seggregate {
             }
         }
         System.out.println("array after segregation ");
-        print(arr);
+        ArrayUtils.print(arr);
     }
 
     private static void segregateZeroOneTwo(int arr[]){
         if(arr == null || arr.length == 1)
             return;
-        int low = 0, mid = 0, high = arr.length-1;
-        System.out.println("array before segregation");
-        print(arr);
-        while (mid < high){
-            switch (arr[mid]){
-                case 0:
-                    if(arr[low] != arr[mid]){
-                        int temp = arr[low];
-                        arr[low] = arr[mid];
-                        arr[mid] = temp;
-                    }
-                    low++;
-                    mid++;
-                    break;
-                case 1:
-                    mid++;
-                    break;
-                case 2:
-                    if(arr[mid] != arr[high]){
-                        int temp = arr[mid];
-                        arr[mid] = arr[high];
-                        arr[high] = temp;
-                    }
-                    high--;
+        int low = 0, high = arr.length - 1;
+        for (int i = 0; i <= high;) {
+            if (arr[i] == 0) {
+                ArrayUtils.swap(arr, i, low);
+                i++;
+                low++;
+            } else if (arr[i] == 1) {
+                i++;
+            } else {
+                ArrayUtils.swap(arr, i, high);
+                high--;
             }
         }
-        System.out.println("array after segregation");
-        print(arr);
+        ArrayUtils.print(arr);
 
-    }
-
-    private static void print(int arr[]){
-        for(int i = 0; i < arr.length; i++){
-            System.out.print(arr[i] + "  ");
-        }
-        System.out.println();
     }
 
 
     public static void main(String[] args) {
         int zeroOne[] = {1,0,0,0,1,0,0,1,0,1,1,0,1,0};
-        int zOT[] = {1,2,2,1,0,2,0,0,1,2,0,1,1};
+        int zOT[] = {1, 0, 2, 1, 0 };
         segregateZeroOne(zeroOne);
         segregateZeroOneTwo(zOT);
 

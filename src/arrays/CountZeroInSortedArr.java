@@ -4,21 +4,34 @@ public class CountZeroInSortedArr {
 
     private static  void printZero(int arr[]){
         int n = arr.length;
-        int mid = n/2 +1;
-        int start = 0;
+        int mid = n/2;
+        int start = mid, end = mid;
         if(arr[mid] == 0){
-            int i = mid;
-            while(arr[i] == 0){
-                i--;
+            while(start >=0 && arr[start--] == 0){
+                if(start == 0){
+                    break;
+                }
+                start--;
             }
-            start = i;
+            while (end < n && arr[end] == 0){
+                if(end == n-1){
+                    break;
+                }
+                end++;
+            }
         }
-        if(arr[mid] == 1){
-
+        else if(arr[mid] == 1){
+             while(arr[mid] != 0 && mid >= 0){
+                 mid--;
+             }
+             end = mid;
+             start = 0;
         }
+        System.out.println("{ " + start +", "+end + " }");
     }
     public static void main(String[] args) {
-        int arr[] =  {1,1,1,1,1,1,0,0,0};
+        int arr[] =  {0,0,0,1,1};
+        printZero(arr);
 
     }
 }

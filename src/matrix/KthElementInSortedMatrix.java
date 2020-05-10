@@ -37,7 +37,6 @@ public class KthElementInSortedMatrix {
 
     public static void main(String[] args) {
      int mat [] [] = {{1,5,9}, {10,11,13}, {12,13,15}};
-     int k = 8;
         System.out.println(findKthSmallest(mat,6));
     }
 }

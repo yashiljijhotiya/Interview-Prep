@@ -43,7 +43,7 @@ public class LongestPalindromicSubString {
     }
 
     public static void main(String[] args) {
-        String str = "abaaa";
+        String str = "aaaaabaaa";
         System.out.println(lps(str));
     }
 }

@@ -2,20 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e813be7b-2372-4e81-ab79-72103461d6b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dp/MinCostPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/TotalPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matrix/Diagonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matrix/GoldMine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matrix/ZigZag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/DeadLockInterview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem_solving/NextPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/Aircraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/IAircraftFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/ICockpit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/IEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/IWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/AbstractFactory/Rafale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Adapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Adapter/Cockpit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Adapter/HotAirBaloon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Adapter/IAircraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Mediator/ChatRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Mediator/ChatUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Mediator/Cockpit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Mediator/IChatRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPattern/Mediator/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/AnagramProblems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/PalindromeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/PrintOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/StairCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/TopologicalSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview_question/AckoTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview_question/AliceCandy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview_question/CountingSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview_question/YashilAcko.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Equilibrium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathematics/FormBiggestNoFromArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathematics/NextGreaterPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathematics/NextPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/problems/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/problems/FizzBuzzCockpit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/producer_consumer/BlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ood/account/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ood/account/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ood/account/Guest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ood/account/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ood/address/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ood/enums/AccountStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ood/enums/BookingStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ood/enums/CardType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ood/enums/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ood/notification/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ood/payment/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ood/payment/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ood/payment/EWallets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ood/payment/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sliding_window/FruitBasket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/EqualZeroOneSubaArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/EqualZeroOneSubaArr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/bst/LCA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/bst/LCA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/NextPallindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/EqualZeroOneSubaArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/EqualZeroOneSubaArr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bst/LCA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bst/LCA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem_solving/NextPallindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/BtreeOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/BtreeOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/DependencyInjection/TextEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/DesignPattern/DependencyInjection/TextEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Mediator/AirCraftColleague.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Mediator/Aircraft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/DesignPattern/Mediator/IATCMediator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/StringEncoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/StringEncoding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/CountZeroInSortedArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/CountZeroInSortedArr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/KLargestElem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/KLargestElem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/Seggregate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/Seggregate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/dp/LongestPalindromicSubString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/dp/LongestPalindromicSubString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/linkedList/PlusOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/linkedList/PlusOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/matrix/KthElementInSortedMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/matrix/KthElementInSortedMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/matrix/PrintDialgonally.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/matrix/SetZero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/matrix/SetZero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/multithreading/ExecutorServiceExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/multithreading/ExecutorServiceExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/multithreading/ExecutorServiceExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/multithreading/ExecutorServiceExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/HouseOfRobber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/problem_solving/HouseOfRobber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/recursion/BalancedParanthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/recursion/BalancedParanthesis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Btree/BtreeOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Btree/BtreeOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/DependencyInjection/TextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/DependencyInjection/TextEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Mediator/AirCraftColleague.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Mediator/Aircraft.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/Mediator/IATCMediator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPattern/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPattern/observer/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/StringEncoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/StringEncoding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/CountZeroInSortedArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/CountZeroInSortedArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/KLargestElem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/KLargestElem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/Seggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/Seggregate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/LongestPalindromicSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/LongestPalindromicSubString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/PlusOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matrix/KthElementInSortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrix/KthElementInSortedMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matrix/PrintDialgonally.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matrix/SetZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrix/SetZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/ExecutorServiceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/ExecutorServiceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/HouseOfRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/HouseOfRobber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursion/BalancedParanthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/BalancedParanthesis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +106,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -53,18 +125,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553528102512" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ElevatorProblem-master" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.GoldMine">
-    <configuration name="Diagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="matrix.Diagonal" />
+  <component name="RunManager" selected="Application.FizzBuzzCockpit">
+    <configuration name="AnagramProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.AnagramProblems" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="matrix.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FruitBasketProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem_solving.FruitBasketProblem" />
+    <configuration name="BalancedParanthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.BalancedParanthesis" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problem_solving.*" />
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoldMine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="matrix.GoldMine" />
+    <configuration name="FizzBuzzCockpit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.problems.FizzBuzzCockpit" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="matrix.*" />
+          <option name="PATTERN" value="multithreading.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TotalPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.TotalPaths" />
+    <configuration name="FormBiggestNoFromArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathematics.FormBiggestNoFromArr" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="mathematics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZigZag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="matrix.ZigZag" />
+    <configuration name="NextPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathematics.NextPalindrome" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="matrix.*" />
+          <option name="PATTERN" value="mathematics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,19 +197,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TotalPaths" />
-      <item itemvalue="Application.ZigZag" />
-      <item itemvalue="Application.Diagonal" />
-      <item itemvalue="Application.FruitBasketProblem" />
-      <item itemvalue="Application.GoldMine" />
+      <item itemvalue="Application.AnagramProblems" />
+      <item itemvalue="Application.BalancedParanthesis" />
+      <item itemvalue="Application.FormBiggestNoFromArr" />
+      <item itemvalue="Application.NextPalindrome" />
+      <item itemvalue="Application.FizzBuzzCockpit" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GoldMine" />
-        <item itemvalue="Application.FruitBasketProblem" />
-        <item itemvalue="Application.Diagonal" />
-        <item itemvalue="Application.ZigZag" />
-        <item itemvalue="Application.TotalPaths" />
+        <item itemvalue="Application.FizzBuzzCockpit" />
+        <item itemvalue="Application.NextPalindrome" />
+        <item itemvalue="Application.FormBiggestNoFromArr" />
+        <item itemvalue="Application.BalancedParanthesis" />
+        <item itemvalue="Application.AnagramProblems" />
       </list>
     </recent_temporary>
   </component>
@@ -168,11 +240,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1586691850108">
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1588322378077">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578461313960" />
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586691850108" />
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1588322378077" />
     <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586011636272">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -181,67 +252,62 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583867778456" />
-    <state x="424" y="0" key="CommitChangelistDialog2" timestamp="1586797970029">
+    <state x="424" y="0" key="CommitChangelistDialog2" timestamp="1587363020051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586797970029" />
+    <state x="424" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587363020051" />
     <state width="454" height="466" key="DebuggerActiveHint" timestamp="1587153331504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="454" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1587153331504" />
-    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1586170884572">
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1588587241173">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578631838939" />
-    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586170884572" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587158781985">
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588587241173" />
+    <state width="1493" height="403" key="GridCell.Tab.0.bottom" timestamp="1589013260026">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607704" />
     <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587158781985" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1587158781985">
+    <state width="1493" height="403" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589013260026" />
+    <state width="1493" height="403" key="GridCell.Tab.0.center" timestamp="1589013260026">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607704" />
     <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587158781985" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1587158781985">
+    <state width="1493" height="403" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589013260026" />
+    <state width="1493" height="403" key="GridCell.Tab.0.left" timestamp="1589013260026">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607703" />
     <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582937" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587158781985" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1587158781985">
+    <state width="1493" height="403" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589013260026" />
+    <state width="1493" height="403" key="GridCell.Tab.0.right" timestamp="1589013260026">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607704" />
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587158781985" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1587154666493">
+    <state width="1493" height="403" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589013260026" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1588362324856">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578451876173" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587154666493" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1587154666493">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588362324856" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1588362324855">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578451876173" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587154666493" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1587154666493">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588362324855" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1588362324855">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578451876173" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587154666493" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1587154666493">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588362324855" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1588362324855">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578451876173" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587154666493" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588362324855" />
     <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1584012234848">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -255,6 +321,10 @@
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1583316262905" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/3.-1200.1920.1160@0.0.1536.824" timestamp="1584992874878" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586317176457" />
+    <state x="209" y="33" key="new project wizard" timestamp="1587497659821">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1587497659821" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1587044281619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -262,7 +332,6 @@
     <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1587022224229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1578461628340" />
     <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587022224229" />
   </component>
   <component name="XDebuggerManager">
