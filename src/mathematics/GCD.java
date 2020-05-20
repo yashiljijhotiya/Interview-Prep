@@ -8,6 +8,6 @@ public class GCD {
         return gcd(b, a % b);
     }
     public static void main(String[] args) {
-        System.out.println(gcd(9,6));
+        System.out.println(gcd(4,12));
     }
 }

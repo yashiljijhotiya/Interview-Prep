@@ -14,15 +14,14 @@ public class StringEncoding {
         for(char c : arr){
             if(c == prev){
                 count++;
-                prev = c;
             }
             else {
                 if(count != 0){
                     result.append(count).append(prev);;
                 }
                 count = 1;
-                prev = c;
             }
+            prev = c;
         }
         //to append the last character to the result
         result.append(count).append(prev);

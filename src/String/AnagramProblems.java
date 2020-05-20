@@ -20,11 +20,8 @@ public class AnagramProblems {
             }
         }
 
-        for(String s: freqMap.keySet()){
-            List<String> list = freqMap.get(s);
-            if(list.size() > 0){
-                System.out.println(list);
-            }
+        for(Map.Entry<String, List<String>> entry : freqMap.entrySet()){
+            System.out.println(entry.getKey());
         }
     }
 
