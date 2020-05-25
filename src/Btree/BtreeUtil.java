@@ -202,10 +202,42 @@ public class BtreeUtil {
     }
 
     protected static int minHeightOfTree(BNode root){
+        int minHeight = Integer.MAX_VALUE;
         if(root == null){
             return 0;
         }
-        return Math.min(minHeightOfTree(root.left), minHeightOfTree(root.right))+1;
+        if(root.left == null && root.right == null){
+            return 1;
+        }
+        if(root.left != null){
+            minHeight = minHeightOfTree(root.left);
+        }
+        if(root.right != null){
+            minHeight = Math.min(minHeightOfTree(root.right), minHeight);
+        }
+
+        return minHeight + 1;
     }
+
+    protected static boolean hasSumPath(BNode root, int sum){
+        return hasSum(root,sum,0);
+    }
+
+    private static boolean hasSum(BNode root, int sum, int prevSum){
+        if(root == null){
+            return false;
+        }
+        if(root.left == null && root.right == null){
+            if(prevSum + root.data == sum){
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+        return  hasSum(root.left, sum, root.data + prevSum) || hasSum(root.left, sum, root.data + prevSum);
+    }
+
+
 
 }

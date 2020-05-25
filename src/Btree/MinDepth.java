@@ -7,14 +7,8 @@ public class MinDepth {
     static int sum = 0;
     static int max_level = Integer.MIN_VALUE;
 
-    private static int minDepth(BNode root, int depth){
-
-        if(root == null){
-            return depth;
-        }
-        depth++;
-
-        return Math.min(minDepth(root.left, depth), minDepth(root.right, depth));
+    private static int minDepth(BNode root){
+        return BtreeUtil.minHeightOfTree(root);
     }
 
     private static  int  hieghtOfTree(BNode root){
@@ -46,7 +40,7 @@ public class MinDepth {
         root.right = new BNode(3);
         root.left.left = new BNode(4);
         root.left.right = new BNode(5);
-        System.out.println("min depth of tree is : " +minDepth(root,0));
+        System.out.println("min depth of tree is : " +minDepth(root));
         System.out.println("height of binary tree is :" + hieghtOfTree(root));
         sumOfNodeAtMaxLevel(root, 0);
         System.out.println("sum at max level" + sum);

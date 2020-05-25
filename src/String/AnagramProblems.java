@@ -1,7 +1,10 @@
 package String;
 
 import java.util.*;
-
+/*Leetcode
+TC : o(n*log(n))
+SC : o(n)
+* */
 public class AnagramProblems {
 
     private static void groupAnagram(String str[]){
@@ -10,7 +13,7 @@ public class AnagramProblems {
             char[] word = s.toCharArray();
             Arrays.sort(word);
             String sortedWord = new String(word);
-            if(!freqMap.containsKey(word)){
+            if(!freqMap.containsKey(sortedWord)){
                 List<String> list = new ArrayList<>();
                 list.add(s);
                 freqMap.put(sortedWord,list);
@@ -20,8 +23,9 @@ public class AnagramProblems {
             }
         }
 
+
         for(Map.Entry<String, List<String>> entry : freqMap.entrySet()){
-            System.out.println(entry.getKey());
+            System.out.println(entry.getValue());
         }
     }
 

@@ -37,7 +37,7 @@ public class BalancedParanthesis {
         char[] output = new char[100];
         //printBalancedParanthesis(0,3, 0,0,output);
         String str = "";
-        printAllBalancedParanthesis(str,0,0,3);
+        printAllBalancedParanthesis(str,0,0,2);
 
     }
 }

@@ -19,6 +19,6 @@ public class CoinChange {
 
     public static void main(String[] args) {
       int coins[] = {1,2,5};
-        System.out.println("min no. of coins required is :" + minCoinChange(coins,11));
+        System.out.println("min no. of coins required is :" + minCoinChange(coins,5));
     }
 }

@@ -2,33 +2,27 @@ package dp;
 
 public class LongestPalindromicSequence {
 
-    private static  int lps(String  str){
-        int result = 0, l;
-        int n = str.length();
-        int temp [][] = new int[n][n];
-        for (int i = 0; i < n; i++)
-            temp[i][i] = 1;
+    private static  int lps(String  st){
+        int[][] dp = new int[st.length()][st.length()];
 
-        for(int j = 2 ;  j < n; j++){
-            for(int k = 0; k< n-j+1; k++){
-                l = k+j-1;
+        // every sequence with one element is a palindrome of length 1
+        for (int i = 0; i < st.length(); i++)
+            dp[i][i] = 1;
 
-                if(str.charAt(k) == str.charAt(l) && j == 2){
-                    temp[k][l] = 2;
+        for (int startIndex = st.length() - 1; startIndex >= 0; startIndex--) {
+            for (int endIndex = startIndex + 1; endIndex < st.length(); endIndex++) {
+                // case 1: elements at the beginning and the end are the same
+                if (st.charAt(startIndex) == st.charAt(endIndex)) {
+                    dp[startIndex][endIndex] = 2 + dp[startIndex + 1][endIndex - 1];
+                } else { // case 2: skip one element either from the beginning or the end
+                    dp[startIndex][endIndex] = Math.max(dp[startIndex + 1][endIndex], dp[startIndex][endIndex - 1]);
                 }
-                else if(str.charAt(k) == str.charAt(l)){
-                    temp[k][l] = temp[k+1][l-1] + 2;
-                }
-                else
-                    temp[k][l] = Integer.max(temp[k][l-1], temp[k+1][l]);
-
             }
         }
-
-        return  temp[0][n-1];
+        return dp[0][st.length() - 1];
     }
     public static void main(String[] args) {
-        String str = "geeksforgeeks";
+        String str = "cddpd";
 
         System.out.println(lps(str));
 

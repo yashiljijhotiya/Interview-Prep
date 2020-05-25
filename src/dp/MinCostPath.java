@@ -28,7 +28,9 @@ public class MinCostPath {
     }
 
     public static void main(String[] args) {
-        int mat[][] = {{1,2,3},{4,8,2},{1,5,3}};
+        int mat[][] = {{1,2,3},
+                       {4,8,2},
+                       {1,5,3}};
         System.out.println("min cost to reach end is : "+ findMinCost(mat));
     }
 }

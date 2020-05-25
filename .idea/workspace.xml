@@ -2,24 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e813be7b-2372-4e81-ab79-72103461d6b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mathematics/CountTriangles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mathematics/NextGreaterNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mathematics/SmallestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/producer_consumer/ProducerConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem_solving/CommonPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BalancedParanthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Btree/DiameterOfTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Btree/MaxSumPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/MaxProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/CountSquares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/MaximalSquareArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/MinJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathematics/HappyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem_solving/StockBuySell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/DecimalToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/PermutationOfString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/BtreeHeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/BtreeHeight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/BtreeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/BtreeUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/MinDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/MinDepth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/MirrorTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/MirrorTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice/String/AnagramProblems.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/AnagramProblems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/String/StringEncoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/String/StringEncoding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/arrays/FindAllMissingNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/arrays/FindAllMissingNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/mathematics/GCD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/mathematics/GCD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/Subsets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/sliding_window/LongestWindowDistinctChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/sliding_window/LongestWindowDistinctChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/dp/CoinChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/dp/CoinChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/dp/LongestPalindromicSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/dp/LongestPalindromicSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/dp/MinCostPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/dp/MinCostPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/recursion/BalancedParanthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/recursion/BalancedParanthesis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Btree/BtreeHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Btree/BtreeHeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Btree/BtreeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Btree/BtreeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Btree/MinDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Btree/MinDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Btree/MirrorTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Btree/MirrorTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/String/AnagramProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/AnagramProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/StringEncoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/StringEncoding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/FindAllMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/FindAllMissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mathematics/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mathematics/GCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem_solving/Subsets.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sliding_window/LongestWindowDistinctChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sliding_window/LongestWindowDistinctChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/LongestPalindromicSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/LongestPalindromicSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/MinCostPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/MinCostPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursion/BalancedParanthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/BalancedParanthesis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,22 +74,9 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.KMostFrequentElement">
-    <configuration name="CommonPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem_solving.CommonPath" />
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problem_solving.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountTriangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mathematics.CountTriangles" />
+  <component name="RunManager" selected="Application.FormBiggestNoFromArr">
+    <configuration name="FormBiggestNoFromArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathematics.FormBiggestNoFromArr" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
@@ -89,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KMostFrequentElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashing.KMostFrequentElement" />
+    <configuration name="PermutationOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.PermutationOfString" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashing.*" />
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreaterNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mathematics.NextGreaterNumber" />
+    <configuration name="ReverseWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.ReverseWord" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mathematics.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,20 +127,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.TwoCharacters" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.CommonPath" />
-      <item itemvalue="Application.CountTriangles" />
+      <item itemvalue="Application.ReverseWord" />
+      <item itemvalue="Application.TwoCharacters" />
+      <item itemvalue="Application.PermutationOfString" />
       <item itemvalue="Application.SmallestNumber" />
-      <item itemvalue="Application.NextGreaterNumber" />
-      <item itemvalue="Application.KMostFrequentElement" />
+      <item itemvalue="Application.FormBiggestNoFromArr" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KMostFrequentElement" />
-        <item itemvalue="Application.NextGreaterNumber" />
+        <item itemvalue="Application.FormBiggestNoFromArr" />
         <item itemvalue="Application.SmallestNumber" />
-        <item itemvalue="Application.CountTriangles" />
-        <item itemvalue="Application.CommonPath" />
+        <item itemvalue="Application.PermutationOfString" />
+        <item itemvalue="Application.TwoCharacters" />
+        <item itemvalue="Application.ReverseWord" />
       </list>
     </recent_temporary>
   </component>
@@ -188,58 +200,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="424" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587363020051" />
-    <state width="454" height="466" key="DebuggerActiveHint" timestamp="1587153331504">
+    <state width="454" height="466" key="DebuggerActiveHint" timestamp="1590303928041">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="454" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1587153331504" />
+    <state width="454" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1590303928041" />
     <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1588587241173">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588587241173" />
-    <state width="1493" height="403" key="GridCell.Tab.0.bottom" timestamp="1589999768135">
+    <state width="1493" height="403" key="GridCell.Tab.0.bottom" timestamp="1590399990957">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607704" />
     <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
-    <state width="1493" height="403" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589999768135" />
-    <state width="1493" height="403" key="GridCell.Tab.0.center" timestamp="1589999768135">
+    <state width="1493" height="403" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590399990957" />
+    <state width="1493" height="403" key="GridCell.Tab.0.center" timestamp="1590399990956">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607704" />
     <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
-    <state width="1493" height="403" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589999768135" />
-    <state width="1493" height="403" key="GridCell.Tab.0.left" timestamp="1589999768135">
+    <state width="1493" height="403" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590399990956" />
+    <state width="1493" height="403" key="GridCell.Tab.0.left" timestamp="1590399990956">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607703" />
     <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582937" />
-    <state width="1493" height="403" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589999768135" />
-    <state width="1493" height="403" key="GridCell.Tab.0.right" timestamp="1589999768135">
+    <state width="1493" height="403" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590399990956" />
+    <state width="1493" height="403" key="GridCell.Tab.0.right" timestamp="1590399990957">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607704" />
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
-    <state width="1493" height="403" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589999768135" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1589275451050">
+    <state width="1493" height="403" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590399990957" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1590384338029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589275451050" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1589275451050">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590384338029" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1590384338029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589275451050" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1589275451050">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590384338029" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1590384338029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589275451050" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1589275451050">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590384338029" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1590384338029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589275451050" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590384338029" />
     <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1584012234848">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -249,14 +261,13 @@
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.-110.1920.1160@0.0.1536.824" timestamp="1585309567480" />
     <state x="-1339" y="-171" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584432105664" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1581399975622" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1583316262905" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/3.-1200.1920.1160@0.0.1536.824" timestamp="1584992874878" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586317176457" />
-    <state x="209" y="33" key="new project wizard" timestamp="1587497659821">
+    <state x="209" y="33" key="new project wizard" timestamp="1590398580145">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1587497659821" />
+    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1590398580145" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1587044281619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
