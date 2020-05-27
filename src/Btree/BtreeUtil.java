@@ -238,6 +238,33 @@ public class BtreeUtil {
         return  hasSum(root.left, sum, root.data + prevSum) || hasSum(root.left, sum, root.data + prevSum);
     }
 
+    private static void reverseLOT(BNode root){
+        if(root == null){
+            return;
+        }
+        Queue<BNode> queue = new LinkedList<>();
+        Stack<BNode> stack = new Stack<>();
+        queue.add(root);
+        while (!queue.isEmpty()){
+            int size = queue.size();
+            while (size > 0){
+                BNode temp = queue.poll();
+                stack.push(temp);
+                if(temp.left != null){
+                    queue.add(temp.left);
+                }
+                if(temp.right != null){
+                    queue.add(temp.right);
+                }
+                size--;
+            }
+        }
+
+        while (stack.isEmpty()){
+            System.out.println(stack.pop());
+        }
+    }
+
 
 
 }

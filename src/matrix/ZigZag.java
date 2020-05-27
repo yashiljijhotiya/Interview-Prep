@@ -42,8 +42,8 @@ public class ZigZag {
     public static void main(String[] args) {
 
         int mat [][] = {{1,2},
-                        {4,5}};
-                        //{7,8,9}};
+                        {4,5},
+                        {7,8}};
         int res[] = printZigZag(mat);
 
         for(int i : res){

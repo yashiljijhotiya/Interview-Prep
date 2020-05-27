@@ -3,7 +3,7 @@ package linkedList;
 public class LLImportant {
 
     private static void printKthFromLast(SLLNode head, int k){
-        if(head == null && k > 1){
+        if(head == null && k < 1){
             return;
         }
         int c = 0;

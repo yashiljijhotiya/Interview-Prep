@@ -33,6 +33,41 @@ public class BstOperation {
         }
     }
 
+    private static BstNode deleteNode(BstNode root, int key){
+        if(root == null){
+            return root;
+        }
+        if(root.data < key){
+            root.right = deleteNode(root.right,key);
+        }
+        if(root.data > key){
+            root.left = deleteNode(root.left, key);
+        }
+        else {
+            if(root.left == null && root.right == null){
+                return null;
+            }
+            else if(root.left != null && root.right != null){
+
+                BstNode temp = minValue(root.right);
+                root.right = deleteNode(root.right,temp.data);
+            }
+            else{
+                BstNode temp = (root.left != null)  ? root.left : root.right;
+                root = temp;
+            }
+        }
+        return root;
+    }
+
+    private static BstNode minValue(BstNode root){
+        while(root.left != null){
+            root = root.left;
+        }
+        return root;
+    }
+
+
     public static void main(String args[]){
         BstOperation b = new BstOperation();
         b.insert(4);
