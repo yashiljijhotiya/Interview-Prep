@@ -35,7 +35,7 @@ public class DiameterOfTree {
         root.left = new BNode(2);
         root.right = new BNode(3);
         root.right.left = new BNode(4);
-        root.right.left.left = new BNode(5);    
+        root.right.left.left = new BNode(5);
 
     }
 }

@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e813be7b-2372-4e81-ab79-72103461d6b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bst/MedianInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mathematics/MaximumRepeatingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/HumanToZombie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/KFrequentKeywords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/PartitionLabels.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/BtreeHeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/BtreeHeight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/BtreeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/BtreeUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/DiameterOfTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/DiameterOfTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/Btree/MinDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/Btree/MinDepth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/bst/BstOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/bst/BstOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/heap/MedianRunningStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/heap/MedianRunningStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/matrix/ZigZag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/matrix/ZigZag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Btree/BtreeHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Btree/BtreeHeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Btree/BtreeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Btree/BtreeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/problem_solving/StockBuySell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/problem_solving/StockBuySell.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Btree/DiameterOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Btree/DiameterOfTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Btree/MinDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Btree/MinDepth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bst/BstOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bst/BstOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/heap/MedianRunningStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap/MedianRunningStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LLImportant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LLImportant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrix/ZigZag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrix/ZigZag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/StockBuySell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/StockBuySell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,18 +46,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553528102512" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ElevatorProblem-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.LCA">
-    <configuration name="BtreeHeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Btree.BtreeHeight" />
+  <component name="RunManager" selected="Application.KFrequentKeywords">
+    <configuration name="HumanToZombie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.HumanToZombie" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Btree.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthElementInSortedMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="matrix.KthElementInSortedMatrix" />
+    <configuration name="KFrequentKeywords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.KFrequentKeywords" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="matrix.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LCA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Btree.LCA" />
+    <configuration name="PartitionLabels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.PartitionLabels" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Btree.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumRepeatingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mathematics.MaximumRepeatingNumber" />
+    <configuration name="StockBuySell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem_solving.StockBuySell" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mathematics.*" />
+          <option name="PATTERN" value="problem_solving.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinDepth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Btree.MinDepth" />
+    <configuration name="Subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.Subsequence" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Btree.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,19 +118,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.KthElementInSortedMatrix" />
-      <item itemvalue="Application.BtreeHeight" />
-      <item itemvalue="Application.MinDepth" />
-      <item itemvalue="Application.MaximumRepeatingNumber" />
-      <item itemvalue="Application.LCA" />
+      <item itemvalue="Application.StockBuySell" />
+      <item itemvalue="Application.Subsequence" />
+      <item itemvalue="Application.HumanToZombie" />
+      <item itemvalue="Application.PartitionLabels" />
+      <item itemvalue="Application.KFrequentKeywords" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LCA" />
-        <item itemvalue="Application.MaximumRepeatingNumber" />
-        <item itemvalue="Application.MinDepth" />
-        <item itemvalue="Application.BtreeHeight" />
-        <item itemvalue="Application.KthElementInSortedMatrix" />
+        <item itemvalue="Application.KFrequentKeywords" />
+        <item itemvalue="Application.PartitionLabels" />
+        <item itemvalue="Application.HumanToZombie" />
+        <item itemvalue="Application.StockBuySell" />
+        <item itemvalue="Application.Subsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -192,62 +181,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="454" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1590303928041" />
-    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1588587241173">
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1590572016684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588587241173" />
-    <state width="1493" height="403" key="GridCell.Tab.0.bottom" timestamp="1590571340646">
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590572016684" />
+    <state width="1493" height="403" key="GridCell.Tab.0.bottom" timestamp="1590837293577">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607704" />
     <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1590420104168" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
-    <state width="1493" height="403" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590571340646" />
-    <state width="1493" height="403" key="GridCell.Tab.0.center" timestamp="1590571340646">
+    <state width="1493" height="403" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590837293577" />
+    <state width="1493" height="403" key="GridCell.Tab.0.center" timestamp="1590837293577">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607704" />
     <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1590420104167" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
-    <state width="1493" height="403" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590571340646" />
-    <state width="1493" height="403" key="GridCell.Tab.0.left" timestamp="1590571340646">
+    <state width="1493" height="403" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590837293577" />
+    <state width="1493" height="403" key="GridCell.Tab.0.left" timestamp="1590837293576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607703" />
     <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1590420104167" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582937" />
-    <state width="1493" height="403" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590571340646" />
-    <state width="1493" height="403" key="GridCell.Tab.0.right" timestamp="1590571340646">
+    <state width="1493" height="403" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590837293576" />
+    <state width="1493" height="403" key="GridCell.Tab.0.right" timestamp="1590837293577">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="317" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-503.1920.1160@-1920.-503.1920.1160" timestamp="1584434607704" />
     <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1590420104167" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/0.-1200.1920.1160@0.0.1536.824" timestamp="1582080021069" />
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/1.-1200.1920.1160@0.0.1536.824" timestamp="1582791582938" />
-    <state width="1493" height="403" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590571340646" />
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1590562439108">
+    <state width="1493" height="403" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590837293577" />
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1590824790383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1590420104168" />
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590562439108" />
-    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1590562439108">
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590824790383" />
+    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1590824790383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1590420104168" />
-    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590562439108" />
-    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1590562439108">
+    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590824790383" />
+    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1590824790383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1590420104168" />
-    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590562439108" />
-    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1590562439108">
+    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590824790383" />
+    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1590824790383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1590420104168" />
-    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590562439108" />
+    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590824790383" />
     <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1584012234848">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
