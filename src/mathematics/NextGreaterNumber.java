@@ -14,7 +14,7 @@ public class NextGreaterNumber {
             System.out.println("Not possible");
         }
         else {
-            Arrays.sort(arr, i-1, arr.length-1);
+            Arrays.sort(arr, i, arr.length-1);
             int temp = arr[i-1];
             arr[i-1] = arr[i];
             arr[i] = temp;

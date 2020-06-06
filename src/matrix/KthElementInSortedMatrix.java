@@ -18,7 +18,7 @@ public class KthElementInSortedMatrix {
     private static int findKthSmallest(int mat[][], int k){
         int r = mat.length;
         int c = mat[0].length;
-        if(mat == null || r == 0 || k <= 0 || k > r*c){
+        if(mat == null || r == 0 || k < 0 || k > r*c){
             return -1;
         }
         PriorityQueue<Node> pq = new PriorityQueue<>((a,b) -> a.val - b.val);
@@ -36,7 +36,9 @@ public class KthElementInSortedMatrix {
     }
 
     public static void main(String[] args) {
-     int mat [] [] = {{1,5,9}, {10,11,13}, {12,13,15}};
+     int mat [] [] = {{1,5,9},
+                      {10,11,13},
+                      {12,13,15}};
         System.out.println(findKthSmallest(mat,6));
     }
 }

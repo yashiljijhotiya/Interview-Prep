@@ -23,6 +23,24 @@ public class BuyingPlot {
         return min_length;
 
     }
+
+    private static int findMinSubArray(int arr[], int s){
+        if(arr == null || arr.length == 0 ){
+            return 0;
+        }
+        int sum = 0, min = Integer.MAX_VALUE, start = 0, end;
+        for(end = 0;  end < arr.length; end++){
+            sum += arr[end];
+
+            while(sum >= s){
+                min = Math.min(min, end - start);
+                sum -= arr[start];
+                start++;
+            }
+        }
+
+        return min;
+    }
     public static void main(String[] args) {
 
         int [] plots = {1,3,2,1,4,1,3,2,1,1,2};

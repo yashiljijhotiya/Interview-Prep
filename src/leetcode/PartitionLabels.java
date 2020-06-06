@@ -1,32 +1,34 @@
 package leetcode;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /*
 * */
 public class PartitionLabels {
 
-    private static List<Integer> partitionLabels(String s){
-        List<Integer> partitionLengths = new ArrayList<>();
-        int [] lastIndexes = new int[26];
-
-        for(int i = 0; i < s.length(); i++){
-            lastIndexes[s.charAt(i) -'a'] = i;
+    private static List<Integer> partitionLabels(String S){
+        Map<Character, Integer> freq = new HashMap<>();
+        for (int i = 0; i < S.length(); i++) {
+            freq.put(S.charAt(i), i);
         }
 
-        int i = 0;
-        while (i < s.length()){
-            int end = lastIndexes[s.charAt(i) -'a'];
-            int j = i+1;
-            while(j != end){
-                end = Math.max(end, lastIndexes[s.charAt(j++) -'a']);
+        List<Integer> result = new ArrayList<>();
+        int maxIndex = freq.get(S.charAt(0));
+        int j = 0;
+        while (j < S.length()) {
+            int start = j;
+            maxIndex = freq.get(S.charAt(start));
+            while (j < maxIndex) {
+                maxIndex = Math.max(maxIndex, freq.get(S.charAt(j++)));
+                j++;
             }
-            partitionLengths.add(j - i + 1);
-            i = j + 1;
+            result.add(maxIndex - start + 1);
+            j = maxIndex + 1;
         }
-
-        return partitionLengths;
+        return result;
     }
     public static void main(String[] args) {
         String s = "ababcbacadefegdehijhklij";
