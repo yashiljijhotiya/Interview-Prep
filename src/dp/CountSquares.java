@@ -19,7 +19,7 @@ public class CountSquares {
         }
 
         // fill first column
-        for(int i = 0; i < r; i++){
+        for(int i = 1; i < r; i++){
             dp[i][0] = mat[i][0];
             count += dp[i][0];
         }

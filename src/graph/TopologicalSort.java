@@ -6,7 +6,7 @@ public class TopologicalSort {
 
     private static List<Integer> topologicalSort(int edges[][], int vertices){
         List<Integer> sortedList = new ArrayList<>();
-        if(edges != null || edges.length != 0){
+        if(edges == null || edges.length == 0){
             return null;
         }
         Map<Integer,Integer> degree = new HashMap<>();
@@ -20,7 +20,7 @@ public class TopologicalSort {
 
         //build graph
         for (int i = 0; i < edges.length; i++){
-            int parent = edges[i][0], child = edges[i][0];
+            int parent = edges[i][0], child = edges[i][1];
             adjList.get(parent).add(child); // put child into parent list
             degree.put(child, degree.get(child)+1); // increase the degree of child
         }
@@ -53,8 +53,7 @@ public class TopologicalSort {
     }
     public static void main(String[] args) {
      int edges[][] = {{3,2},{3,0},{2,0},{2,1}};
-     List<Integer> topologicalSortedList = topologicalSort(edges,4);
-     topologicalSortedList.forEach(i -> System.out.println(i));
+        System.out.println(topologicalSort(edges,4));
     }
 
 }

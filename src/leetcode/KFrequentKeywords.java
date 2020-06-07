@@ -5,13 +5,17 @@ public class KFrequentKeywords {
 
     private static List<String> findKFrequent(String [] keywords, String [] reviews, int k ){
         Map<String, Integer> freqMap = new HashMap<>();
-        List<String> keyWordList = Arrays.asList(keywords);
-        for(String word : reviews){
-            for(String s : word.split("\\s+")){
-             if(keyWordList.contains(s)){
-                 freqMap.put(s, freqMap.getOrDefault(s,0)+1);
-             }
-            }
+        HashSet<String> keywordsSet = new HashSet<>(Arrays.asList(keywords));
+        for(String review : reviews){
+           String [] str = review.split("\\W");
+           HashSet<String> added = new HashSet<>();
+           for(String s : str){
+               s = s.toLowerCase();
+               if(keywordsSet.contains(s) && !added.contains(s)){
+                   freqMap.put(s, freqMap.getOrDefault(s, 0) + 1);
+                   added.add(s);
+               }
+           }
         }
         List<String> list = new ArrayList<>(freqMap.keySet());
         Collections.sort(list, (a,b) -> (freqMap.get(a).equals(freqMap.get(b)) ? a.compareTo(b) : freqMap.get(b)-freqMap.get(a)));

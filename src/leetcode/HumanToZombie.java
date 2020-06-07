@@ -54,7 +54,7 @@ public class HumanToZombie {
     }
 
     public static void main(String[] args) {
-        int mat[][] = {{ 0, 1, 1, 0, 1},
+        int mat[][] = {{0, 1, 1, 0, 1},
                        {0, 1, 0, 1, 0 },
                        {0, 0, 0, 0, 1 },
                        {0, 1, 0, 0, 0 }};

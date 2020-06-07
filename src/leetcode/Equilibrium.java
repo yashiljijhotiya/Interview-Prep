@@ -5,34 +5,28 @@ package leetcode;
 public class Equilibrium {
 
     private static int findEquilibriumPoint(int arr[]){
-        int equilibriumPoint = -1;
         //if length is 2 not possible to find equilibrium point
-        if(arr == null || arr.length == 0 || arr.length == 2){
+        if(arr == null || arr.length == 0){
             return  -1;
         }
-        // the zeroth index will be equilibrium point
-        else if(arr.length == 1){
-            return 0;
-        }
 
-        int sum [] = new int[arr.length];
-        int total = 0;
-        for(int i = 0; i < arr.length;i++){
-            total += arr[i];
-            sum[i] = total;
+        int sum = 0, leftsum = 0;
+        for (int i = 0; i < arr.length; ++i)
+            sum += arr[i];
+
+        for (int i = 0; i < arr.length; ++i) {
+            sum -= arr[i]; // sum is now right sum for index i
+
+            if (leftsum == sum)
+                return i;
+
+            leftsum += arr[i];
         }
-        int leftSum, rightSum;
-        for(int i = 1; i < arr.length-1; i++){
-            leftSum = sum[i]-arr[i];
-            rightSum = sum[sum.length-1]-sum[i];
-            if(leftSum == rightSum){
-                equilibriumPoint = i;
-                break;
-            }
-        }
-        return equilibriumPoint;
+        return -1;
     }
     public static void main(String[] args) {
+        int arr[] = { -7, 1, 5, 2, -4, 3, 0 };
+        System.out.println(findEquilibriumPoint(arr));
 
     }
 }

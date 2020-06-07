@@ -31,10 +31,10 @@ public class NoOfIslands {
 
     public static void main(String[] args) {
         NoOfIslands n = new NoOfIslands();
-        int arr [][] = {{1,1,0,0},
+        int arr [][] = {{1,1,0,1},
                         {1,1,0,0},
-                        {0,0,1,0},
-                        {0,0,1,1}};
+                        {0,0,1,1},
+                        {1,0,1,1}};
         System.out.println("Total no. of Island are :" + n.countIsland(arr));
     }
 }
