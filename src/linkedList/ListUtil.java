@@ -88,6 +88,18 @@ public class ListUtil {
         return head;
     }
 
+    public static int getSize(SLLNode head){
+        if(head == null){
+            return 0;
+        }
+        int size = 0;
+        while (head != null){
+            head = head.next;
+            size++;
+        }
+        return size;
+    }
+
 
 
 }

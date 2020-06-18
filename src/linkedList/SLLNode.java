@@ -2,10 +2,10 @@ package linkedList;
 
 public class SLLNode {
 
-    int data;
-    SLLNode next;
+   public int data;
+    public SLLNode next;
 
-    SLLNode(int data){
+    public SLLNode(int data){
         this.data = data;
         this.next  = null;
 

@@ -2,7 +2,7 @@ package arrays;
 import java.util.PriorityQueue;
 
 public class MergeKSortedArrays {
-//TC : (k*n)log(k)
+//TC : (n*k)log(k)
     private static class PQNode{
         int arrayNum;
         int index;

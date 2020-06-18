@@ -2,7 +2,7 @@ package arrays;
 
 public class MaxProfitBuyAndSellOneTime {
 
-    private static  int maxProfifBySelling(int arr[]){
+    private static  int maxProfitBySelling(int arr[]){
         int min = Integer.MAX_VALUE;
         int max = 0;
         for(int i = 0; i < arr.length; i++){
@@ -17,6 +17,6 @@ public class MaxProfitBuyAndSellOneTime {
     }
     public static void main(String[] args) {
         int arr[] = {7,1,5,3,6,4};
-        System.out.println("max profit earn = " + maxProfifBySelling(arr));
+        System.out.println("max profit earn = " + maxProfitBySelling(arr));
     }
 }

@@ -1,6 +1,7 @@
 package matrix;
 /* @author : Yashil(18-04-20)
 Leetcode
+TC : O(m*n)
  */
 public class GoldMine {
 
@@ -36,7 +37,9 @@ public class GoldMine {
     }
 
     public static void main(String[] args) {
-        int mine[][] = {{0,6,0}, {5,8,7}, {0,9,0}};
+        int mine[][] = {{0,6,0},
+                        {5,8,7},
+                        {0,9,0}};
         System.out.println("Max gold collected is :" +totalGoldCollected(mine));
     }
 }

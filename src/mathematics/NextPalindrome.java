@@ -35,13 +35,13 @@ public class NextPalindrome {
             }
         }
         //all nine
-//        else if(checkForAll9(arr)){
-//            System.out.print(1);
-//            for(int i = 0; i < len-1; i++){
-//                System.out.print(0);
-//            }
-//            System.out.print(1);
-//        }
+        else if(checkForAll9(arr)){
+            System.out.print(1);
+            for(int i = 0; i < len-1; i++){
+                System.out.print(0);
+            }
+            System.out.print(1);
+        }
         //odd
         else {
             while(arr[left] == arr[right]){
@@ -76,7 +76,7 @@ public class NextPalindrome {
 
     private static boolean checkForAll9(int arr[]){
         boolean allNine = true;
-        for(int i = 0; i < arr.length; i++){
+        for(int i = 0; i < arr.length-1; i++){
             if(arr[i] != 9){
                 allNine = false;
                 break;
@@ -86,7 +86,7 @@ public class NextPalindrome {
     }
 
     public static void main(String[] args) {
-        int arr[] = {2,3,7,4,9};
+        int arr[] = {9,9,9};
         nextPalindrome(arr);
     }
 }

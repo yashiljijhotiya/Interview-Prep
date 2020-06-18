@@ -1,7 +1,4 @@
 package sliding_window;
-
-import org.w3c.dom.ls.LSOutput;
-
 public class MaxSumOfK {
 
     private static int maxSumOfKSizeWindow(int arr[], int k){

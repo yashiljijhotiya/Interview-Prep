@@ -28,7 +28,7 @@ public class CountTriangles {
     }
 
     public static void main(String[] args) {
-        int arr[] = {4,3,5,7,6};
+        int arr[] = {1,2,3,4,5};
         System.out.println("total no. of triangles formed are :" + countTriangles(arr));
     }
 }

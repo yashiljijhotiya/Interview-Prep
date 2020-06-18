@@ -47,7 +47,10 @@ public class SmallestKSortedRange {
 
     }
     public static void main(String[] args) {
-        int arr[][] = {{3,6,8,10}, {1,5,12},{4,8,15,16},{2,6}};
+        int arr[][] = {{3,6,8,10},
+                       {1,5,12},
+                       {4,8,15,16},
+                       {2,6}};
         findSmallestRange(arr);
 
     }

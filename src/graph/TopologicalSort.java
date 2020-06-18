@@ -52,8 +52,8 @@ public class TopologicalSort {
         return sortedList;
     }
     public static void main(String[] args) {
-     int edges[][] = {{3,2},{3,0},{2,0},{2,1}};
-        System.out.println(topologicalSort(edges,4));
+     int edges[][] = {{0,2}, {1,2}, {2,0}};
+        System.out.println(topologicalSort(edges,3));
     }
 
 }

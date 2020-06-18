@@ -1,6 +1,6 @@
 package String;
 // Leetcode : approach first reverse the whole string than reverse each individual word
-public class ReverseWord {
+public class  ReverseWord {
 
     private static String reverseWord(String str){
         if(str == null || str.length() == 0){

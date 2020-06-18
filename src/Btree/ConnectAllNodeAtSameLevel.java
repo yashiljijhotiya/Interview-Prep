@@ -26,9 +26,9 @@ public class ConnectAllNodeAtSameLevel {
         ConnectNode prev;
         q.add(root);
         while(!q.isEmpty()){
-            int count = q.size();
+            int size = q.size();
             prev = null;
-            while(count > 0){
+            while(size > 0){
                 ConnectNode temp = q.poll();
                 if(prev != null){
                     prev.next = temp;
@@ -40,7 +40,7 @@ public class ConnectAllNodeAtSameLevel {
                 if(temp.right != null){
                     q.add(temp.right);
                 }
-                count--;
+                size--;
             }
         }
     }

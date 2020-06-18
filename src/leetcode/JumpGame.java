@@ -13,7 +13,6 @@ public class JumpGame {
         int maxSteps = steps[0];
 
         for(int i = 1; i < len; i++){
-
             if(maxSteps < i){
                 ++result;
                 maxSteps = maxPos;

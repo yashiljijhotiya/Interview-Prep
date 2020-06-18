@@ -27,7 +27,9 @@ public class Transpose {
         }
     }
     public static void main(String[] args) {
-        int mat[][] = {{1,1,1}, {2,2,2}, {3,3,3}};
+        int mat[][] = {{1,1,1},
+                       {2,2,2},
+                       {3,3,3}};
         transpose(mat);
         print(mat);
     }

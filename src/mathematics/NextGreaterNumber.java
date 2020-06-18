@@ -24,7 +24,7 @@ public class NextGreaterNumber {
         }
     }
     public static void main(String[] args) {
-        int arr[] = {5,3,4,9,7,6};
+        int arr[] = {5,3,4,9,7,6}; //4,6,7,9
         findNextGreaterNum(arr);
     }
 }

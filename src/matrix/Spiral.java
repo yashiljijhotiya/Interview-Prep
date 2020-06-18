@@ -1,5 +1,5 @@
 package matrix;
-
+//TC : O(m*n)
 public class Spiral {
 
     public void printSpiral(int mat[][]){

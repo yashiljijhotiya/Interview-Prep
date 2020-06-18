@@ -1,16 +1,16 @@
 package mathematics;
-
+//TC : log(n)
 public class HappyNumber {
 
     private static boolean isHappyNum(int num){
         int slow = num, fast = num;
         do{
-         slow = findSquareSum(slow);
-         fast = findSquareSum(findSquareSum(fast));
+         slow = findSquareSum(slow);//move one step
+         fast = findSquareSum(findSquareSum(fast));//move two step
 
-        }while (slow != fast);
+        }while (slow != fast);//detect cycle
 
-        return slow == 1;
+        return slow == 1;// see if the cycle stuck at 1
     }
 
     private  static  int findSquareSum(int num){

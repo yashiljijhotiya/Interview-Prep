@@ -9,7 +9,7 @@ public class StackOrderOne {
         s = new Stack<>();
     }
 
-    private  void push(Integer val){
+    private void push(Integer val){
         if(s.isEmpty()){
           min = val;
           s.push(val);
@@ -35,6 +35,7 @@ public class StackOrderOne {
          System.out.println("min value is:" +min);
      }
     }
+
     private  void pop(){
         if(s.isEmpty()){
             System.out.println("stack is  empty");
@@ -43,25 +44,16 @@ public class StackOrderOne {
         else{
           Integer temp = s.pop();
           if(min < temp){
-              System.out.println("value poped is: " + temp);
+              System.out.println("value popped is: " + temp);
           }
           else{
-              System.out.println("value poped is:"+min);
+              System.out.println("value popped is:"+min);
               min = 2*min -temp;
           }
 
         }
     }
 
-    private static  void test(int val){
-        if(val == 1){
-            System.out.println("1");
-        }
-        else{
-            System.out.println("not 1");
-        }
-        System.out.println("test");
-    }
     private  void peek(){
         if (s.isEmpty()){
             System.out.println("stack is empty");
@@ -79,16 +71,17 @@ public class StackOrderOne {
 
     public static void main(String[] args) {
        StackOrderOne st = new StackOrderOne();
-//        st.push(3);
-//        st.push(5);
-//        st.getMin();
-//        st.push(2);
-//        st.push(1);
-//        st.getMin();
-//        st.pop();
-//        st.getMin();
-//        st.pop();
-//        st.peek();
-        test(2);
+        st.push(3);
+        st.push(5);
+        st.getMin();
+        st.push(2);
+        st.push(1);
+        st.getMin();
+        st.pop();
+        st.getMin();
+        st.pop();
+        st.peek();
+        st.getMin();
+
     }
 }

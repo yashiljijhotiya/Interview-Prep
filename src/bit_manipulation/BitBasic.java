@@ -19,7 +19,8 @@ public class BitBasic {
         System.out.println("no. of set bits are :" +count);
     }
 
-    // min no. of bits to convert a to b
+    // min no. of bits to convert a to b 11
+    //                                   00
     private static void minNoOfBitsToConvert(int a, int b){
         int res = a^b;
         System.out.println("min. bits to convert a to b : "+res);

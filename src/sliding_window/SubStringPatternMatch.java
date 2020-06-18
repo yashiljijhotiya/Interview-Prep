@@ -51,12 +51,46 @@ public class SubStringPatternMatch {
         return str.substring(start_index, start_index + min_length);
     }
 
-    public static void main(String[] args) {
-        String str = "this is a test string";
-        String pat = "tist";
+    private static String findMinWindow(String s, String t){
+        if(s.length() < t.length()){
+            return "";
+        }
+        int start = 0, count = 0, minLength = Integer.MAX_VALUE, minStart = -1, minEnd = 0;
+        int charMap[] = new int[128];
+        for(char c : s.toCharArray()){
+            charMap[c]++;
+        }
+        for(int end = 0; end < s.length(); end++){
+            if(charMap[s.charAt(end)] > 0){
+                count++;
+            }
+            charMap[s.charAt(end)]--;
 
-        System.out.print("Smallest window is :\n " +
-                findSubStringWindow(str, pat));
+            if(count == t.length()){
+                while(start < end && charMap[s.charAt(start)] < 0){
+                    charMap[s.charAt(start)]++;
+                    start++;
+                }
+                if(minLength  > end - start +1){
+                    minLength = end - start + 1;
+                    minStart = start;
+                    minEnd = end + 1;
+                }
+                charMap[s.charAt(start)]++;
+                start++;
+                count--;
+            }
+        }
+       return  minStart != -1 ? "" : s.substring(minStart, minEnd);
+    }
+
+    public static void main(String[] args) {
+        String str = "adobecodebanc";
+        String pat = "abc";
+
+//        System.out.print("Smallest window is :\n " +
+//                findSubStringWindow(str, pat));
+        System.out.println(findMinWindow(str,pat));
 
     }
 }

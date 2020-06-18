@@ -2,24 +2,30 @@ package Btree;
 
 public class MaxSumPath {
 
+    private static int maxSumPath;
     private static int maxSumPath(BNode root){
         if(root == null){
             return 0;
         }
-        int result = Integer.MIN_VALUE;
-        return findMaxPathSum(root, result);
+        maxSumPath = Integer.MIN_VALUE;
+        return findMaxPathSum(root);
     }
 
-    private static int findMaxPathSum(BNode root, int result){
+    private static int findMaxPathSum(BNode root){
         if(root == null ){
             return 0;
         }
-        int left = findMaxPathSum(root.left, result);
-        int right = findMaxPathSum(root.right, result);
-        int maxStraight = Math.max(Math.max(left, right) + root.data, root.data);
-        int maxCaseVal = Math.max(maxStraight, left+right+root.data);
-        result = Math.max(maxCaseVal, result);
-        return result;
+        int left = findMaxPathSum(root.left);
+        int right = findMaxPathSum(root.right);
+
+        int maxSumLeft = Math.max(left,0);
+        int maxSumRight = Math.max(right,0);
+
+        int localMaxSum = maxSumLeft + maxSumRight + root.data;
+        maxSumPath = Math.max(maxSumPath,localMaxSum);
+
+        return Math.max(maxSumLeft, maxSumRight) + root.data;
+
     }
 
     public static void main(String[] args) {

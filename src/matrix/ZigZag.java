@@ -30,7 +30,7 @@ public class ZigZag {
         List<Integer> res = new ArrayList<>();
         for(int i = 0; i < map.size(); i++) {
             List<Integer> tmp = map.get(i);
-            if(i % 2  == 0) {
+            if((i&1) == 0) {
                 Collections.reverse(tmp);
             }
             res.addAll(tmp);

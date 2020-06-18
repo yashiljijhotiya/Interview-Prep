@@ -1,7 +1,8 @@
 package linkedList;
 
 public class ZigZag {
-
+// a < b > c < d > e < f   1->2->3->4
+    private static SLLNode head = null;
     private static  SLLNode rearrangeZigZag(SLLNode head){
         if(head == null || head.next == null){
             return head;
@@ -16,7 +17,6 @@ public class ZigZag {
                       temp.data = temp.next.data;
                       temp.next.data = data;
                   }
-                  flag = !flag;
               }
               else {
                   if(temp.data < temp.next.data){
@@ -24,15 +24,20 @@ public class ZigZag {
                       temp.data = temp.next.data;
                       temp.next.data = data;
                   }
-                  flag = !flag;
               }
-              temp = temp.next;
+                flag = !flag;
+                temp = temp.next;
             }
         }
         return head;
     }
 
     public static void main(String[] args) {
-
+        head = ListUtil.insert(4,head);
+        head = ListUtil.insert(3,head);
+        head = ListUtil.insert(2,head);
+        head = ListUtil.insert(1,head);
+        head = rearrangeZigZag(head);
+        ListUtil.printList(head);
     }
 }

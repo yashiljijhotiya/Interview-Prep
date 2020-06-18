@@ -3,6 +3,7 @@ package recursion;
 import java.util.Arrays;
 
 /* Backtracking problem : ABC = {ABC, ACB, BAC, CAB,BCA,CBA} i.e. 3! = 6
+TC : O(n*n!)
 * */
 public class PermutationOfString {
 
@@ -37,8 +38,30 @@ public class PermutationOfString {
         }
     }
 
+    //n*n!
+    private static void permutations(char [] arr, int len){
+        if(len == 1){
+            System.out.println(arr);
+            return;
+        }
+        else {
+            for(int i = 0; i < len; i++){
+                swap(arr,i, len-1);
+                permutations(arr, len-1);
+                swap(arr, i, len-1);
+            }
+        }
+    }
+
+    private static void swap(char [] arr, int i, int j){
+        char temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
     public static void main(String[] args) {
-        String str = "ABC";
-        printAllPermutation(str);
+        String str = "AABC";
+        //printAllPermutation(str);
+        permutations(str.toCharArray(), str.length());
     }
 }

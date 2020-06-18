@@ -21,7 +21,7 @@ public class MinCharToPallindrome {
             }
         }
 
-        System.out.println("min no. of character replace to make string palindrome are : " + count);
+        System.out.println("min no. of character replace to make string palindrome are : " + count + s);
     }
     public static void main(String[] args) {
         String s = "tesyut";
