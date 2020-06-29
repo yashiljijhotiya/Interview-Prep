@@ -36,6 +36,7 @@
       <change afterPath="$PROJECT_DIR$/src/subsets/Subsets.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/subsets/SubsetsWithNoDuplicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/out/production/Practice/BalancedParanthesis.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice/LRUCache.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice/LRUNode.class" beforeDir="false" />
@@ -53,6 +54,8 @@
       <change beforePath="$PROJECT_DIR$/src/binarySearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarySearch/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/binarySearch/InfiniteArraySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarySearch/InfiniteArraySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sliding_window/AvgSubArrayKSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sliding_window/AvgSubArrayKSize.java" afterDir="false" />
+=======
+>>>>>>> d22309a64441ea1dab63c957a35d1f344b017374
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
