@@ -1,3 +1,5 @@
+package design;
+
 public class LRUNode {
 
     int key;

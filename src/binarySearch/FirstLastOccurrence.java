@@ -1,7 +1,6 @@
-package amazon;
-/*TC : log(n)
-* */
-public class CountXInSortedArray {
+package binarySearch;
+
+public class FirstLastOccurrence {
 
     private static int countXOccurrence(int arr[], int x){
         int n = arr.length;
@@ -9,12 +8,12 @@ public class CountXInSortedArray {
             return -1;
         }
 
-        int i = findFirstOccurrence(arr, 0, n-1, x,n);
-        if(i == -1){
-            return i;
+        int first = findFirstOccurrence(arr, 0, n-1, x,n);
+        if(first == -1){
+            return first;
         }
-        int j = findLastOccurrence(arr, i, n-1,x, n);
-        return j - i + 1;
+        int last = findLastOccurrence(arr, first, n-1,x, n);
+        return last - first + 1;
     }
 
     private static int findFirstOccurrence(int arr[], int low, int high, int x, int n){
@@ -30,7 +29,7 @@ public class CountXInSortedArray {
                 return findFirstOccurrence(arr, 0, mid-1, x, n);
             }
         }
-      return -1;
+        return -1;
     }
 
     private static int findLastOccurrence(int arr[], int low, int high, int x, int n){

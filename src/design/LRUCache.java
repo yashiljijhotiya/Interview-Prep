@@ -1,8 +1,11 @@
+package design;
+
 import java.util.HashMap;
 
 public class LRUCache {
+
     int capacity;
-    static HashMap<Integer,LRUNode> lru = new HashMap<Integer, LRUNode>();
+    static HashMap<Integer, LRUNode> lru = new HashMap<Integer, LRUNode>();
     LRUNode head = null;
     LRUNode end = null;
 
@@ -25,20 +28,17 @@ public class LRUCache {
         if(lru.containsKey((key))){
             LRUNode old = lru.get(key);
             old.value = val;
-             remove(old);
-             setHead(old);
+            remove(old);
+            setHead(old);
         }
         else{
             LRUNode create = new LRUNode(key,val);
             if(lru.size() >= capacity){
                 lru.remove(end.key);
                 remove(end);
-                setHead(create);
 
             }
-            else{
-                setHead(create);
-            }
+            setHead(create);
             lru.put(key, create);
         }
     }
@@ -48,7 +48,7 @@ public class LRUCache {
             node.prv.next = node.next;
         }
         else{
-           head = node.next;
+            head = node.next;
         }
         if(node.next != null){
             node.next.prv = node.prv;

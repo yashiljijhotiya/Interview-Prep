@@ -9,7 +9,7 @@ public class BinarySearch {
         int start = 0;
         int end = arr.length - 1;
         while (start <= end){
-            int mid  = start + end - start/2; //to avoid integer overflow
+            int mid  = start + (end - start/2); //to avoid integer overflow
             if(arr[mid] == num){
                 return mid;
             }
@@ -22,7 +22,6 @@ public class BinarySearch {
         }
         return -1;
     }
-
 
     public static void main(String[] args) {
         int arr[] = {2,4,7,11,19,21,66,89,144,188};

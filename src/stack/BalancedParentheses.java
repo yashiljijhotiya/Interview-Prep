@@ -1,6 +1,8 @@
+package stack;
+
 import java.util.Stack;
 
-public class BalancedParanthesis {
+public class BalancedParentheses {
 
     private static boolean isMatching(char a, char b){
         if(a == '(' && b == ')'){
@@ -28,7 +30,7 @@ public class BalancedParanthesis {
                     return false;
                 }
                 else if(!isMatching(stack.pop(), arr[i])){
-                   return false;
+                    return false;
                 }
             }
         }
