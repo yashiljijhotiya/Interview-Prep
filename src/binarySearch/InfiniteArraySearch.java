@@ -3,7 +3,7 @@ package binarySearch;
 *Let i be the position of the element to be searched, then the number of iterations for finding upper index
 * 'r' is equal to O(log i) in the worst case. Similarly, The total number of elements between l and r = O(i)
 *  (Think)
-Time complexity = finding uppar index 'r' of the interval + Binary Search from l to r = O(log i) + O(log i ) = O(log i)
+Time complexity = finding upper index 'r' of the interval + Binary Search from l to r = O(log i) + O(log i ) = O(log i)
 Space Complexity: O(1) if we use iterative binary search.
 *
 * */

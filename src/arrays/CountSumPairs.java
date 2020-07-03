@@ -27,6 +27,5 @@ public class CountSumPairs {
     public static void main(String[] args) {
         int arr [] = {7,1,11,19, 5,4,3,6};
         System.out.println("no. of pairs are : " +countNoOfPairs(arr, 10));
-
     }
 }

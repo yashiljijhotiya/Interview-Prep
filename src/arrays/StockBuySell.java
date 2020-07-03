@@ -12,7 +12,7 @@ public class StockBuySell {
     }
 
     private void maxProfit(int price[], int n){
-      if(n <= 1)
+      if(n < 2)
           return;
       int count = 0;
       int i = 0;

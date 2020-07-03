@@ -31,6 +31,10 @@ public class Address implements  Cloneable{
         return city;
     }
 
+    public Object clone() throws  CloneNotSupportedException{
+        return super.clone();
+    }
+
     @Override
     public String toString() {
         return "Address{" +

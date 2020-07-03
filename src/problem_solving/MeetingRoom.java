@@ -1,7 +1,7 @@
 package problem_solving;
 import java.util.ArrayList;
 import java.util.PriorityQueue;
-
+//TC : O n*log(n)
 public class MeetingRoom {
 
     private static class Interval{
