@@ -4,6 +4,7 @@ import java.util.*;
 public class KFrequentKeywords {
 
     private static ArrayList<String> findKFrequent(String [] keywords, String [] reviews, int k ){
+        //Set<Character> set = Set.of('a', 'e', 'i');
         Map<String, Integer> freqMap = new HashMap<>();
         HashSet<String> keywordsSet = new HashSet<>(Arrays.asList(keywords));
         for(String review : reviews){

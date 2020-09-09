@@ -25,7 +25,7 @@ public class RestoreIPAddress {
         //case 1 : choose 1 digit
         dfs(s.substring(1), res,subStr + s.substring(0,1) + ".", index+1);
         //case 2 : choose 2 digits
-        if(s.length() >1 && s.charAt(0) != '0'){
+        if(s.length() > 1 && s.charAt(0) != '0'){
             dfs(s.substring(2), res,subStr + s.substring(0,2) + ".", index+1);
             //case 3 : choose 3 digits
             if(s.length() >2 && Integer.valueOf(s.substring(0,3)) <= 255){
@@ -60,8 +60,8 @@ public class RestoreIPAddress {
     }
 
     public static void main(String[] args) {
-        String s = "25525511135";
-        System.out.println(restoreIP(s));
+        String s = "255.255.111.35";
+        System.out.println(isValid(s));
 
     }
 }

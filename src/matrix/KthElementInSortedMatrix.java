@@ -22,7 +22,7 @@ public class KthElementInSortedMatrix {
             return -1;
         }
         PriorityQueue<Node> pq = new PriorityQueue<>((a,b) -> a.val - b.val);
-        for(int i = 0; i < c; i++){
+        for(int i = 0; i < r; i++){
             pq.add(new Node(i,0,mat[i][0]));
         }
         for(int i = 0; i < k-1; i++){

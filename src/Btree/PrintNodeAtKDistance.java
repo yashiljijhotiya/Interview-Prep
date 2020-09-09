@@ -1,6 +1,6 @@
 package Btree;
 
-public class PrintNodeAtKDistance {
+public class  PrintNodeAtKDistance {
 
     private static int printNodeAtKDist(BNode root, BNode target, int k){
         if(root == null || target == null || k < 0){

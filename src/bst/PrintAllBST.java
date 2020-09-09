@@ -15,7 +15,6 @@ public class PrintAllBST {
 
     private static List<BstNode> generateTree(int beg, int end){
         List<BstNode> result = new ArrayList<>();
-        System.out.println(beg + " -- " + end);
         if(beg > end){
             result.add(null);
             return result;

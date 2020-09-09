@@ -1,5 +1,18 @@
 package bst;
-
+// TC : Catalan no.
+/*   (root)
+     /    \
+    l = 3     r = 4
+    so total combination possible are =  l*r(3*4 = 12)
+ n = 3 = [1,2,3]
+   1           2
+  / \         / \
+null [2,3]   1   3
+C0   C1      C1  C2
+*
+  C2 = C0C1 + C1C0
+  C3 = C0C3 + C1C2 + C2C1 + C3C0
+* */
 public class CalculateTotalBST {
 
     private static int calculateBST(int n){

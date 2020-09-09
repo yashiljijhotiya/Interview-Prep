@@ -1,6 +1,6 @@
 package mathematics;
 
-public class Kadanes {
+public class  Kadanes {
 
     private static int maxSumSubArr(int num[]){
         int currSum = 0, maxSum = Integer.MIN_VALUE;

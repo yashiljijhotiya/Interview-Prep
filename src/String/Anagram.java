@@ -17,7 +17,7 @@ public class Anagram {
 
     }
 
-    private static boolean isAngramByXOR(String str1, String str2){
+    private static boolean isAnagramByXOR(String str1, String str2){
         if(str1.length() != str2.length()){
             return false;
         }
@@ -37,7 +37,7 @@ public class Anagram {
     public static void main(String[] args) {
         String s1 = "listen";
         String s2 = "silent";
-        if(isAngramByXOR(s1, s2))
+        if(isAnagramByXOR(s1, s2))
             System.out.println("is anagram");
         else
             System.out.println("is not anagram");

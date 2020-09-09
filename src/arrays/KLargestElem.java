@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Collections;
 import java.util.PriorityQueue;
-// TC : n + k*log(n)
+// TC :  n*log(k)
 public class KLargestElem {
 
 

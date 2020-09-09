@@ -1,5 +1,5 @@
 package leetcode;
-
+//TC : O(n * 4^L) where n is the total no. of cells and l is the length of word
 public class WordSearch {
 
     private static boolean isExist(char[][] board, String word){

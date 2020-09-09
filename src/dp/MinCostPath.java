@@ -3,6 +3,10 @@ package dp;
 public class MinCostPath {
 
     private static int findMinCost(int mat [][]){
+
+        StringBuilder result = new StringBuilder();
+        result.append(" ");
+        result.append("");
         if(mat == null || mat.length == 0){
             return 0;
         }
@@ -29,7 +33,7 @@ public class MinCostPath {
 
     public static void main(String[] args) {
         int mat[][] = {{1,2,3},
-                       {4,8,2},
+                       {4,8,1},
                        {1,5,3}};
         System.out.println("min cost to reach end is : "+ findMinCost(mat));
     }

@@ -1,5 +1,5 @@
 package Btree;
-
+//Leetcode 114
 public class FlattenBTreeToLL {
 
     private static void flatten(BNode root){
@@ -21,7 +21,7 @@ public class FlattenBTreeToLL {
 
         if(leftTail != null){
             leftTail.right = root.right;
-            root.right = leftTail;
+            root.right = root.left;
             root.left = null;
         }
         return rightTail  == null ? leftTail : rightTail;

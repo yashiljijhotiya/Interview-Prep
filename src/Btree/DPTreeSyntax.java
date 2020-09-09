@@ -1,6 +1,6 @@
 package Btree;
 
-public class DPTreeSyntax {
+public class  DPTreeSyntax {
 
     private static int solve(BNode root){
         if(root == null){
@@ -27,6 +27,9 @@ public class DPTreeSyntax {
         res = Math.max(ans, res);
 
        //for max sum path for any node
+        /*for handling negative value as well say l = -20 and r = -10, so if we take max that time we included negative
+        * value as well ie -10 therefore we do max(max(l,r)+root.data, root.data) to discard negative value from answer
+        * */
         temp = Math.max(Math.max(l,r) + root.data, root.data);
         ans = Math.max(temp, l+r+root.data);
         res = Math.max(ans, temp);

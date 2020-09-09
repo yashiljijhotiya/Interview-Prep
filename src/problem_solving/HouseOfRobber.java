@@ -25,7 +25,7 @@ public class HouseOfRobber {
     }
 
     public static void main(String[] args) {
-     int money [] = {3,5,-7,8,10};
+     int money [] = {5, 5, 10, 100, 10, 5};
         System.out.println("Max money robbed is :" + maxMoneyRobbed(money));
     }
 }

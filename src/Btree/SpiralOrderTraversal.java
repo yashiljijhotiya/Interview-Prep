@@ -14,7 +14,7 @@ public class SpiralOrderTraversal {
             while (!s1.isEmpty() || !s2.isEmpty()){
                while (!s1.isEmpty()){
                    BNode node = s1.pop();
-                   System.out.println(node.data);
+                   System.out.print(node.data + " ");
                    if(node.left != null){
                        s2.push(node.left);
                    }
@@ -24,7 +24,7 @@ public class SpiralOrderTraversal {
                }
                while (!s2.isEmpty()){
                    BNode node = s2.pop();
-                   System.out.println(node.data);
+                   System.out.print(node.data + " ");
                    if(node.right != null){
                        s1.push(node.right);
                    }
@@ -32,8 +32,8 @@ public class SpiralOrderTraversal {
                        s1.push(node.left);
                    }
                }
+               System.out.println();
             }
-
         }
     }
     public static void main(String[] args) {

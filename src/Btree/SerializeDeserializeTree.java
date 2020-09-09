@@ -25,7 +25,7 @@ public class SerializeDeserializeTree {
     }
 
     private static BNode deserializeTree(String str){
-        if(str != null || str.length() == 0 || str.isEmpty()){
+        if(str != null || str.isEmpty()){
             return null;
         }
         String [] splitStr = str.split(",");

@@ -11,12 +11,13 @@ public class PartitionLabels {
         }
         List<Integer> result = new ArrayList<>();
         char[] charArr = str.toCharArray();
+        //last index of each character
         HashMap<Character, Integer> indexMap = new HashMap<>();
         for(int i = 0; i < charArr.length; i++){
             indexMap.put(charArr[i], i);
         }
         int windowEnd, windowStart = 0;
-        for(windowEnd = 0; windowEnd <= charArr.length; windowEnd++){
+        for(windowEnd = 0; windowEnd < charArr.length; windowEnd++){
             char rightChar = charArr[windowEnd];
             int mostRightIndex = indexMap.get(rightChar);
 

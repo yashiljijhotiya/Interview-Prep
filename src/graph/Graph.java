@@ -8,16 +8,15 @@ public class Graph {
 
 
     public void addEdge(int src, int dst){
+        LinkedList<Integer> l;
         if(!g.containsKey(src)){
-            LinkedList<Integer> l = new LinkedList<>();
-            l.add(dst);
-            g.put(src,l);
+            l = new LinkedList<>();
         }
         else{
-            LinkedList<Integer> l = g.get(src);
-            l.add(dst);
-            g.put(src,l);
+            l = g.get(src);
         }
+        l.add(dst);
+        g.put(src,l);
     }
 
     public void printGraph(){

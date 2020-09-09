@@ -4,33 +4,34 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class FindAllAnagrams {
+public class  FindAllAnagrams {
 
-    private static List<Integer> findAllAnagram(String s1, String s2 ){
-        int l1 = s1.length(), l2 = s2.length();
+    private static final int MAX_CHARACTERS = 26;
+    private static List<Integer> findAllAnagram(String s, String p ){
+        int l1 = s.length(), l2 = p.length();
         List<Integer> result = new ArrayList<>();
-//        if(l1 < l2){
-//            return new ArrayList<>();
-//        }
-        int hash1 [] = new int[128];
-        int hash2[] = new int[128];
+        if(l1 < l2){
+            return  result;
+        }
+        int hash1[] = new int[MAX_CHARACTERS];
+        int hash2[] = new int[MAX_CHARACTERS];
 
         int left = 0, right = 0;
-        while (right < l1){
-            hash1[s1.charAt(right) - 'a']++;
-            hash2[s2.charAt(right) - 'a']++;
+        while (right < l2){
+            hash1[s.charAt(right) - 'a']++;
+            hash2[p.charAt(right) - 'a']++;
             right++;
         }
         right = right - 1;
-        while (right < l2){
+        while (right < l1){
             if(Arrays.equals(hash1,hash2)){
                 result.add(left);
             }
             right += 1;
-            if(right != l2){
-                hash2[s2.charAt(right) -'a']++;
+            if(right != l1){
+                hash1[s.charAt(right) -'a']++;
             }
-            hash2[s2.charAt(left)-'a']--;
+            hash1[s.charAt(left)-'a']--;
             left++;
         }
         return result;

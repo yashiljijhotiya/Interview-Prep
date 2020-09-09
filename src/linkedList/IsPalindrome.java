@@ -9,7 +9,7 @@ public class IsPalindrome {
         }
         SLLNode left = head;
 
-        boolean isPalindrome = isPalindrome(root.next);
+        boolean isPalindrome = isPalindromeRec(root.next);
 
         if(isPalindrome == false){
             return false;
