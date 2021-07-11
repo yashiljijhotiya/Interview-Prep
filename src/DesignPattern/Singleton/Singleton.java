@@ -1,9 +1,10 @@
 package DesignPattern.Singleton;
 
-import java.io.*;
-import java.lang.reflect.Constructor;
+import java.io.ObjectStreamException;
+import java.io.Serializable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+//Singleton is creational design pattern.
 // double check lock can also be broken so to avoid this we use volatile keyword
 
 // creating singleton using enum has thread safety, safety against serialization and deserialization, safety against cloning and even reflection

@@ -1,7 +1,6 @@
 package linkedList;
 
 public class SwapNodes {
-
     private static void swapNodes(SLLNode head, int x, int y){
         if(x == y){
             return;

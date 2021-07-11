@@ -20,7 +20,16 @@ public class CountNumberOfBitsBtwTwoNumber {
         return count;
     }
 
+    private static boolean checkIthBitSet(int num, int i){
+        if((num &(1<<(i -1)))>0){
+            return true;
+        }
+        return  false;
+    }
+
+
     public static void main(String[] args) {
-     countNumOfBitsBwNums(10, 15);
+        //countNumOfBitsBwNums(10, 15);
+        System.out.println(checkIthBitSet(2,2));
     }
 }

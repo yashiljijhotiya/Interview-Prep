@@ -7,18 +7,18 @@ public class LLImportant {
             return;
         }
         int c = 0;
-        SLLNode main = head , refrence = head;
+        SLLNode main = head , reference = head;
         while(c < k){
-            if(refrence == null){
+            if(reference == null){
                 System.out.println(k + "is greater than no. of nodes in the list");
                 return;
             }
-            refrence = refrence.next;
+            reference = reference.next;
             c++;
         }
 
-        while(refrence != null){
-            refrence = refrence.next;
+        while(reference != null){
+            reference = reference.next;
             main = main.next;
         }
         System.out.println(k+"th node from last in list is :" +main.data);

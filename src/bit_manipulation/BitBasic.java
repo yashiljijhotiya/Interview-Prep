@@ -38,6 +38,16 @@ public class BitBasic {
         a = a^b;
         System.out.println("no. after swapping are : a  =  "  + a + "  &  b  =  " + b );
     }
+    /* Power of 2 always have only one bit set ie last bit eg 2 = 10, 4 = 100, 8 = 1000
+    and if we subtract number by 1  eg num =  4 = 100 now subtract -1 = 3 = 11 and we so & operator (4 & 3)
+    (100 & 011) = 0
+    * */
+    private static boolean isPowerOf2(int num){
+        if((num&(num-1)) == 0){
+            return true;
+        }
+        return false;
+    }
 
 
     public static void main(String[] args) {
