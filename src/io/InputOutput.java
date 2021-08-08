@@ -1,8 +1,6 @@
 package io;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class InputOutput {
@@ -24,29 +22,34 @@ public class InputOutput {
 //        System.out.println();
 
 
-        InputStreamReader isr= new InputStreamReader(System.in);
-        BufferedReader ib= new BufferedReader(isr);
+//        InputStreamReader isr= new InputStreamReader(System.in);
+//        BufferedReader ib= new BufferedReader(isr);
+//        Scanner sc = new Scanner(System.in);
+//        int time = sc.nextInt();
+//
+//        int arr[] = new int[26];
+//        for(int i = 0; i < 26; i++){
+//            arr[i] = Integer.parseInt(ib.readLine());
+//        }
+//
+//        int min = Integer.MAX_VALUE;
+//        int index = 0;
+//        for(int i = 0; i < arr.length;i++){
+//            if(arr[i] < min){
+//                min = arr[i];
+//                index = i;
+//            }
+//        }
+//        int lenOfString = time/min;
+//        System.out.println("length of string is : " + lenOfString);
+//        for(int i = 0; i < lenOfString; i++){
+//            System.out.print((char)(index+ 1 + 96));
+//        }
+
         Scanner sc = new Scanner(System.in);
-        int time = sc.nextInt();
+        System.out.println("enter12");
+        String s = sc.nextLine();
 
-        int arr[] = new int[26];
-        for(int i = 0; i < 26; i++){
-            arr[i] = Integer.parseInt(ib.readLine());
-        }
-
-        int min = Integer.MAX_VALUE;
-        int index = 0;
-        for(int i = 0; i < arr.length;i++){
-            if(arr[i] < min){
-                min = arr[i];
-                index = i;
-            }
-        }
-        int lenOfString = time/min;
-        System.out.println("length of string is : " + lenOfString);
-        for(int i = 0; i < lenOfString; i++){
-            System.out.print((char)(index+ 1 + 96));
-        }
 
 
     }

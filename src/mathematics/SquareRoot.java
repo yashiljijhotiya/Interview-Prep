@@ -3,8 +3,9 @@ package mathematics;
 /*
 * The idea is to search the square root within the range 1 to x.
 We check :
-if(midmid)>x: it means the square root lies between 1 to mid,thus we reduce the search window between 1 to mid.
-if(midmid<=x): it means that mid can be a probable answer and we store it in ans and again search if we have another answer greater to this mid which can be the closest answer.
+if(mid*mid)>x: it means the square root lies between 1 to mid,thus we reduce the search window between 1 to mid.
+if(mid*mid<=x): it means that mid can be a probable answer and we store it in ans and again search if we have another answer greater to this mid which can be the closest answer.
+* TC: O(log(n^1/2))
 * */
 
 public class SquareRoot {

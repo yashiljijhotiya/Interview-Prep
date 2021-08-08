@@ -20,7 +20,6 @@ public class NGE {
                         break;
                     }
                     elem = s.pop();
-
                 }
 
                 if(elem > next ){

@@ -1,56 +1,64 @@
 package binarySearch;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class FirstLastOccurrence {
 
-    private static int countXOccurrence(int arr[], int x){
+    private static List<Integer> countXOccurrence(int arr[], int x){
         int n = arr.length;
         if(arr == null && n == 0 || arr[n-1] < x){
-            return -1;
+            return new ArrayList<>();
         }
-
-        int first = findFirstOccurrence(arr, 0, n-1, x,n);
-        if(first == -1){
-            return first;
-        }
-        int last = findLastOccurrence(arr, first, n-1,x, n);
-        return last - first + 1;
+        int firstIndex = getFirstOccurrence(arr,x);
+        System.out.println("firstIndex : " + firstIndex);
+        int lastIndex = getLastOccurrence(arr,x);
+        System.out.println("lastIndex : "+ lastIndex);
+        return Arrays.asList(firstIndex, lastIndex);
     }
 
-    private static int findFirstOccurrence(int arr[], int low, int high, int x, int n){
-        if(high >= low){
-            int mid  = low + (high-low)/2;
-            if((mid == 0 || x > arr[mid-1]) && arr[mid] == x){
-                return mid;
+
+    private static int getFirstOccurrence(int arr[], int candidate){
+        int startIndex = 0, endIndex = arr.length -1;
+        int result = -1;
+        while(startIndex <= endIndex){
+            int midIndex = startIndex + (endIndex - startIndex)/2;
+            if(arr[midIndex] == candidate){
+                result = midIndex;
+                endIndex = midIndex - 1;
             }
-            else if(x > arr[mid]){
-                return findFirstOccurrence(arr, mid+1, high, x, n);
+            else if(arr[midIndex] < candidate){
+                startIndex = midIndex + 1;
             }
             else {
-                return findFirstOccurrence(arr, 0, mid-1, x, n);
+                endIndex = midIndex - 1;
             }
         }
-        return -1;
+        return result;
     }
 
-    private static int findLastOccurrence(int arr[], int low, int high, int x, int n){
-
-        if(high >= low){
-            int mid  = low + (high-low)/2;
-            if((mid == n-1 || x < arr[mid+1]) && arr[mid] == x){
-                return mid;
+    private static int getLastOccurrence(int arr[], int candidate){
+        int startIndex = 0, endIndex = arr.length - 1;
+        int result = -1;
+        while(startIndex <= endIndex){
+            int midIndex = startIndex + (endIndex - startIndex)/2;
+            if(arr[midIndex] == candidate){
+                result = midIndex;
+                startIndex = midIndex + 1;
             }
-            else if(x > arr[mid]){
-                return findLastOccurrence(arr, mid+1, high, x, n);
+            else if(arr[midIndex] < candidate){
+                startIndex = midIndex + 1;
             }
             else {
-                return findLastOccurrence(arr, 0, mid-1, x, n);
+                endIndex = midIndex - 1;
             }
         }
-        return  -1;
+        return result;
     }
 
     public static void main(String[] args) {
         int arr[] = {1,1,1,1,1,1,1,1,2,2,2,2,5,11,19,22};
-        System.out.println(countXOccurrence(arr, 1));
+        System.out.println(countXOccurrence(arr, 2));
     }
 }

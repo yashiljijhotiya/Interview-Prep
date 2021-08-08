@@ -1,6 +1,5 @@
 package bit_manipulation;
 
-import java.util.Scanner;
 //It is used to calculate the no. set bit present in the given number.
 public class BrianKernighanAlgorithm {
     private static int countNoOfSetBits(int num){
@@ -12,6 +11,6 @@ public class BrianKernighanAlgorithm {
         return count;
     }
     public static void main(String[] args) {
-        System.out.println(countNoOfSetBits(7));
+        System.out.println(countNoOfSetBits(4));
     }
 }

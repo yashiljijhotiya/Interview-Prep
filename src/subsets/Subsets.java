@@ -2,7 +2,8 @@ package subsets;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//TC : O(n*2^n)
+//SC : O(n*2^n)
 public class Subsets {
 
     private static List<List<Integer>> findAllSubsets(int arr[]){

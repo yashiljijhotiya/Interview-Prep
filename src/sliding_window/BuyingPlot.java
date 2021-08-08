@@ -6,17 +6,17 @@ public class BuyingPlot {
     private static int minLengthSegment(int plots[], int plotLen){
         int result = 0;
         int min_length = Integer.MAX_VALUE;
-        int i = 0;
-        for(int j = 0; j < plots.length; j++){
+        int start = 0;
+        for(int end = 0; end < plots.length; end++){
             if(result == plotLen){
-                min_length = Integer.min(min_length, j-i+1);
+                min_length = Integer.min(min_length, end-start+1);
             }
             if(result < plotLen){
-                result += plots[j];
+                result += plots[end];
             }
             if(result > plotLen){
-                result = result- plots[i];
-                i++;
+                result = result- plots[start];
+                start++;
             }
         }
 
