@@ -3,7 +3,7 @@ package dp.grid;
 *TC: O(m*n)
 * SC: O(m*n)
 *  */
-public class MinPathSum {
+public class  MinPathSum {
 
     private static int findMinPathSum(int [][] grid){
         if(grid == null){

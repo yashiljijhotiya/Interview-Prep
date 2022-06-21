@@ -2,21 +2,15 @@ package linkedList;
 
 public class IsPalindrome {
     private static SLLNode head = null;
-
+    private static SLLNode ref = head;
     private static boolean isPalindromeRec(SLLNode root){
         if(root == null){
             return true;
         }
-        SLLNode left = head;
-
-        boolean isPalindrome = isPalindromeRec(root.next);
-
-        if(isPalindrome == false){
-            return false;
-        }
-        boolean ispal = (left.data == root.data);
-        left = left.next;
-        return ispal;
+        boolean ans = isPalindromeRec(root.next);
+        boolean isEqual = ref.data == root.data ? true : false;
+        ref = ref.next;
+        return ans && isEqual;
     }
 
     public static boolean isPalindrome(SLLNode head) {
@@ -47,12 +41,23 @@ public class IsPalindrome {
         return true;
     }
 
+    private static  int sum = 0;
+    private static int findVal(SLLNode head, int n){
+        if(head == null){
+            return 1;
+        }
+        sum += 2^n * findVal(head.next, n+1);
+        return sum;
+
+    }
+
     public static void main(String[] args) {
         head = ListUtil.insert(1,head);
-        head = ListUtil.insert(2,head);
-        head = ListUtil.insert(2,head);
+        head = ListUtil.insert(0,head);
         head = ListUtil.insert(1,head);
-        System.out.println(isPalindrome(head));
+        //head = ListUtil.insert(1,head);
+        //System.out.println(isPalindromeRec(head));
+        System.out.println(findVal(head, 0));
 
     }
 }

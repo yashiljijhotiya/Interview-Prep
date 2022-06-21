@@ -13,6 +13,7 @@ public class MinTapGarden {
                     max = i + ranges[i];
                 }
             }
+            // if all ranges is 0 or not able to give water completely
             if(min == max){
                 return -1;
             }

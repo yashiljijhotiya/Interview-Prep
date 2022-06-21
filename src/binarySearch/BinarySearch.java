@@ -1,6 +1,6 @@
 package binarySearch;
 //TC : log(n)
-public class BinarySearch {
+public class    BinarySearch {
 
     private static int binarySearchIterative(int arr[], int candidate){
         int startIndex = 0, endIndex = arr.length -1;

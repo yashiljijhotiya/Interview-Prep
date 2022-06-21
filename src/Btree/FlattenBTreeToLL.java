@@ -26,4 +26,17 @@ public class FlattenBTreeToLL {
         }
         return rightTail  == null ? leftTail : rightTail;
     }
+
+    public static void main(String[] args) {
+        BNode root = new BNode(1);
+        root.left = new BNode(2);
+        root.right = new BNode(3);
+        root.left.left = new BNode(4);
+        root.left.right = new BNode(5);
+        root.right.right = new BNode(6);
+
+        root = flattenTree(root);
+
+
+    }
 }

@@ -2,6 +2,8 @@ package linkedList;
 
 public class AddList {
 
+    private static SLLNode result = null, last = null;
+
     private static SLLNode addList(SLLNode node1, SLLNode node2){
         if(node1 == null){
             return node2;
@@ -32,6 +34,40 @@ public class AddList {
         }
 
          return dummy.next;
+    }
+
+    private static SLLNode addInteger(SLLNode l1, SLLNode l2){
+        if(l1 == null && l2 == null){
+            return l1;
+        }
+        if(l1 == null){
+            return l2;
+        }
+        if(l2 == null){
+            return l1;
+        }
+        int carry = 0;
+        while (l1 != null && l2 != null){
+            int first = l1 == null? 0 : l1.data;
+            int second = l2 == null ? 0 : l2.data;
+            int sum = first+second+carry;
+            SLLNode newNode = new SLLNode(sum%10);
+            carry = sum/10;
+            if(result == null){
+                result = newNode;
+            }
+            else {
+                last.next = newNode;
+            }
+            last = newNode;
+            if(l1 != null){
+                l1 = l1.next;
+            }
+            if(l2 != null){
+                l2 = l2.next;
+            }
+        }
+        return result;
     }
 
     private static SLLNode addTwoNum(SLLNode l1, SLLNode l2){

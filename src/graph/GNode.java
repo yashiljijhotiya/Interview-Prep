@@ -6,20 +6,21 @@ public class GNode {
     boolean isVisited;
     int weight;
     boolean directed;
-    GNode(int src, int dst ){
+
+    GNode(int src, int dst) {
         this.dst = dst;
         this.src = src;
         this.isVisited = false;
     }
 
-    GNode(int src, int dst, int weight){
+    GNode(int src, int dst, int weight) {
         this.dst = dst;
         this.src = src;
         this.isVisited = false;
         this.weight = weight;
     }
 
-    GNode(int src, int dst, int weight, boolean directed){
+    GNode(int src, int dst, int weight, boolean directed) {
         this.dst = dst;
         this.src = src;
         this.isVisited = false;
@@ -27,11 +28,11 @@ public class GNode {
         this.directed = true;
     }
 
-    public void visited(){
+    public void visited() {
         isVisited = true;
     }
 
-   public void  unVisited(){
+    public void unVisited() {
         isVisited = false;
     }
 }

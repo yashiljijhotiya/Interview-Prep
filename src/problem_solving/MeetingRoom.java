@@ -31,19 +31,18 @@ public class MeetingRoom {
                    pq.add(current);
                }
                pq.add(earliest);
-
         }
         return pq.size();
     }
 
 
     public static void main(String[] args) {
-        ArrayList<Interval> tmintv = new ArrayList<>();
-        tmintv.add(new Interval(2,15));
-        tmintv.add(new Interval(7,11));
-        tmintv.add(new Interval(1,4));
-        tmintv.add(new Interval(22,24));
-        tmintv.add(new Interval(11,19));
-        System.out.println("min no. of meeting room required : " + minNoMeetingRoom(tmintv));
+        ArrayList<Interval> intervals = new ArrayList<>();
+        intervals.add(new Interval(2,15));
+        intervals.add(new Interval(7,11));
+        intervals.add(new Interval(1,4));
+        intervals.add(new Interval(22,24));
+        intervals.add(new Interval(11,19));
+        System.out.println("min no. of meeting room required : " + minNoMeetingRoom(intervals));
     }
 }

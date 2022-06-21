@@ -1,7 +1,9 @@
 package sliding_window;
 
 import java.util.Arrays;
-
+/**
+ *  The resultant arr formed is of size = len of arr - k + 1
+ * */
 public class AvgSubArrayKSize {
 
     private static String findAvg(int arr[], int k){
@@ -11,7 +13,7 @@ public class AvgSubArrayKSize {
         for(windowEnd = 0; windowEnd < arr.length; windowEnd++){
             sum += arr[windowEnd];
 
-            if(windowEnd+1  >= k){
+            if(windowEnd - windowStart +1  == k){
                 result[windowStart] = sum/k;
                 sum -= arr[windowStart];
                 windowStart++;

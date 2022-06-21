@@ -1,5 +1,4 @@
 package dp.knapsack;
-import java.util.Arrays;
 /* Rec TC : O(2^n), SC :
 *  Memoize TC : O(n^2), SC : O(n^2) + call stack
 *  Top down TC : O(n^2)

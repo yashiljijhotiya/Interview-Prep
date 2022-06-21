@@ -44,7 +44,7 @@ public class BuyingPlot {
     public static void main(String[] args) {
 
         int [] plots = {1,3,2,1,4,1,3,2,1,1,2};
-        System.out.println("min no.  of plots required is :" + minLengthSegment(plots, 8));
+        System.out.println("min no.  of plots required is :" + findMinSubArray(plots, 8));
 
     }
 }

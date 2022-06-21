@@ -30,19 +30,19 @@ public class Seggregate {
     }
 
     private static void segregateZeroOneTwo(int arr[]){
-        if(arr == null || arr.length == 1)
+        if(arr == null || arr.length <= 1)
             return;
-        int low = 0, high = arr.length - 1;
-        for (int i = 0; i <= high;) {
-            if (arr[i] == 0) {
-                ArrayUtils.swap(arr, i, low);
-                i++;
-                low++;
-            } else if (arr[i] == 1) {
-                i++;
+        int left = 0, mid = 0, right = arr.length - 1;
+         while (mid <= right) {
+            if (arr[mid] == 0) {
+                ArrayUtils.swap(arr, mid, left);
+                mid++;
+                left++;
+            } else if (arr[mid] == 1) {
+                mid++;
             } else {
-                ArrayUtils.swap(arr, i, high);
-                high--;
+                ArrayUtils.swap(arr,mid, right);
+                right--;
             }
         }
         ArrayUtils.print(arr);
@@ -55,7 +55,5 @@ public class Seggregate {
         int zOT[] = {1, 0, 2, 1, 0 };
         segregateZeroOne(zeroOne);
         segregateZeroOneTwo(zOT);
-
-
     }
 }
