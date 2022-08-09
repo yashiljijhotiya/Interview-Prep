@@ -24,8 +24,25 @@ public class HouseOfRobber {
         return dp[len-1];
     }
 
+    private static int maxMoneyRob(int nums[]){
+        if(nums == null || nums.length == 0){
+            return 0;
+        }
+        int n = nums.length;
+        int inc = nums[0];
+        int exc = 0;
+        for(int i = 1; i < n; i++){
+            int newInc = nums[i] + exc;
+            int newExc = Math.max(inc, exc);
+            inc = newInc;
+            exc = newExc;
+        }
+
+        return Math.max(inc, exc);
+    }
+
     public static void main(String[] args) {
      int money [] = {5, 5, 10, 100, 10, 5};
-        System.out.println("Max money robbed is :" + maxMoneyRobbed(money));
+        System.out.println("Max money robbed is :" + maxMoneyRob(money));
     }
 }

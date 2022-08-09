@@ -11,7 +11,18 @@ public class PaintHouseTwo {
             dp[0][i] = arr[0][i];
         }
         for(int i = 1; i < house; i++){
-           // for ()
+           for (int j = 0; j < color; j++){
+               int min = Integer.MAX_VALUE;
+               for(int k = 0; k < color; k++){
+                   if(j != k){
+                       if(dp[i-1][k] < min){
+                           min = dp[i-1][k];
+                       }
+                   }
+               }
+               dp[i][j] = arr[i][j] + min;
+
+           }
         }
 
         return 0;

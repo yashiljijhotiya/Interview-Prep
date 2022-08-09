@@ -1,8 +1,6 @@
 package dp.fibonacci;
 
-import java.util.Arrays;
-
-/*Recursive : TC: O(2^n)
+/**Recursive : TC: O(2^n)
 * Top  down :TC : O(n^2) SC : O(n)
 * */
 public class MinimumJumps {

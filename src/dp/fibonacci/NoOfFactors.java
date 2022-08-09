@@ -1,5 +1,5 @@
 package dp.fibonacci;
-/* no. of factors using 1,3,4
+/** no. of factors using 1,3,4
 * Recursive : TC: O(3^n)
 * Top down : TC : O(n) SC : O(n)
 * */

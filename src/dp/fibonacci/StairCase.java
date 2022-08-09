@@ -1,5 +1,5 @@
 package dp.fibonacci;
-/* Recursive TC : O(3^n)
+/** Recursive TC : O(3^n)
 *  Top Down : TC : O(n) SC : O(n)
 * */
 public class StairCase {
