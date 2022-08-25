@@ -1,5 +1,7 @@
 package amazon;
 
+import java.util.Collections;
+
 public class NumberToRoman {
 
     private static String convertToRoman(int num){
@@ -49,9 +51,26 @@ public class NumberToRoman {
 
             return sb.toString();
     }
+
+    public static String intToRoman(int num) {
+        int[] value = new int[]{1,4,5,9,10,40,50,90,100,400,500,900,1000};
+        String[] symbol = new String[]{"I","IV","V","IX","X","XL","L","XC","C","CD","D","CM","M"};
+        StringBuilder ans = new StringBuilder();
+        for(int i=value.length-1;i>=0;i--){
+            int quotient = num/value[i];
+            int remainder = num%value[i];
+            if(quotient>0){
+                String sym = String.join("", Collections.nCopies(quotient,symbol[i]));
+                ans.append(sym);
+                num = remainder;
+            }
+        }
+        return ans.toString();
+    }
     public static void main(String[] args) {
-        int num = 1994;
-        System.out.println(num +"to roman is : " + convertToRoman(num) );
+//        int num = 1994;
+//        System.out.println(num +"to roman is : " + convertToRoman(num) );
+        System.out.println(intToRoman(58));
 
     }
 }

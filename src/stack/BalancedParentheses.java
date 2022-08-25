@@ -1,5 +1,6 @@
 package stack;
 
+import java.util.Collections;
 import java.util.Stack;
 
 public class BalancedParentheses {
@@ -48,6 +49,7 @@ public class BalancedParentheses {
             System.out.println("Balanced ");
         else
             System.out.println("Not Balanced ");
+
 
     }
 }
