@@ -2,27 +2,23 @@ package dp.stocks_buy_sell;
 
 public class StockBuySellOne {
 
-    private static int findMaxProfit(int [] price){
-        if(price == null || price.length == 0){
+    private static int findMaxProfit(int[] price) {
+        if (price == null || price.length == 0) {
             return 0;
         }
-        int n = price.length;
+        int min = Integer.MAX_VALUE;
         int maxProfit = 0;
-        int profitIfSoldToday = 0;
-        int leastSoFar = Integer.MAX_VALUE;
-        for(int i = 0; i < n; i++){
-            if(price[i] < leastSoFar){
-                leastSoFar = price[i];
+        for (int i = 0; i < price.length; i++) {
+            if (min > price[i]) {
+                min = price[i];
             }
-            profitIfSoldToday = price[i] - leastSoFar;
-            if(profitIfSoldToday > maxProfit){
-                maxProfit = profitIfSoldToday;
-            }
+            maxProfit = Math.max(maxProfit, price[i] - min);
         }
         return maxProfit;
     }
+
     public static void main(String[] args) {
-        int [] price = {7,1,5,6,3,4};
+        int[] price = {7, 1, 5, 6, 3, 4};
         System.out.println("Max Profit earn in buying and selling 1 stock : " + findMaxProfit(price));
 
     }

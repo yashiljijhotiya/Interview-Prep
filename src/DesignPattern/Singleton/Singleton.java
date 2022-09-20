@@ -4,7 +4,15 @@ import java.io.ObjectStreamException;
 import java.io.Serializable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-//Singleton is creational design pattern.
+//Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
+
+/**
+ * All implementations of the Singleton have these two steps in common:
+ * <p>
+ * Make the default constructor private, to prevent other objects from using the new operator with the Singleton class.
+ * Create a static creation method that acts as a constructor. Under the hood, this method calls the private constructor
+ * to create an object and saves it in a static field. All following calls to this method return the cached object.
+ */
 // double check lock can also be broken so to avoid this we use volatile keyword
 
 // creating singleton using enum has thread safety, safety against serialization and deserialization, safety against cloning and even reflection
@@ -14,41 +22,40 @@ global point of reference and for all future calls to the cache object the clien
 *
 * */
 
-public class Singleton  implements  Cloneable, Serializable{
+public class Singleton implements Cloneable, Serializable {
 
-    private static  volatile Singleton singleton = null;
+    private static volatile Singleton singleton = null;
 
-    private Singleton(){
+    private Singleton() {
         // for reflection
-        if(singleton != null){
+        if (singleton != null) {
             throw new RuntimeException("can not create, Please call getInstance");
         }
     }
 
-    public static  Singleton getInstance(){
-        if(singleton == null){
-            synchronized (Singleton.class){
+    public static Singleton getInstance() {
+        if (singleton == null) {
+            synchronized (Singleton.class) {
                 //double check lock
                 //Lazy initialization
-                if(singleton == null){
+                if (singleton == null) {
                     singleton = new Singleton();
                 }
             }
         }
-        return  singleton;
+        return singleton;
     }
 
     //for serialization and deserialization
-    protected  Object readResolve() throws ObjectStreamException{
+    protected Object readResolve() throws ObjectStreamException {
         System.out.println("... read resolve");
         return singleton;
     }
 
     // for protection from cloning
-    protected Object clone() throws CloneNotSupportedException{
+    protected Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
-
 
 
     public static void main(String[] args) throws Exception {
@@ -85,8 +92,8 @@ public class Singleton  implements  Cloneable, Serializable{
 
         SingleTonEnum singleTonEnum1 = SingleTonEnum.INSTANCE;
         SingleTonEnum singleTonEnum2 = SingleTonEnum.INSTANCE;
-        System.out.println("Singleton1 using enum :" +singleTonEnum1.hashCode());
-        System.out.println("Singleton2 using enum :" +singleTonEnum2.hashCode());
+        System.out.println("Singleton1 using enum :" + singleTonEnum1.hashCode());
+        System.out.println("Singleton2 using enum :" + singleTonEnum2.hashCode());
 
 
     }

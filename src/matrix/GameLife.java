@@ -5,7 +5,8 @@ package matrix;
  * TC: O(m*n)
  **/
 public class GameLife {
-    private static int[][] directions = {};
+    private static int[][] directions = {{0, -1}, {-1, 0}, {1, 0}, {0, 1},
+            {-1, -1}, {1, -1}, {-1, 1}, {1, 1}};
 
     private static void gameOfLife(int[][] board) {
         if (board == null || board.length == 0) {

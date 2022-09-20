@@ -82,6 +82,5 @@ public class InfixExpressionEvaluation {
     public static void main(String[] args) {
         String exp = "2+3/4-(5*6)";
         System.out.println(evaluateExpression(exp));
-
     }
 }

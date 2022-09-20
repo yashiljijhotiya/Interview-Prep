@@ -8,7 +8,11 @@ One of the best example of strategy pattern is Collections.sort() method that ta
 Based on the different implementations of Comparator interfaces, the Objects are getting sorted in different ways.
 
 It uses composition instead of inheritance, It is a type of behaviour pattern.
+
+It follows Open/Closed Principle. You can introduce new strategies without having to change the context.
 *
+
+Bridge, State, Strategy (and to some degree Adapter) have very similar structures. Indeed, all of these patterns are based on composition.
 
 
 

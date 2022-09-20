@@ -1,7 +1,12 @@
 package DesignPattern.observer;
 
+/**
+ * It is used by publisher to publish the message
+ */
 public interface Subject {
-    public void attach(Observer o);
-    public void detach(Observer o);
-    public void notifyUpdate(Message m);
+    void attach(Observer o);
+
+    void detach(Observer o);
+
+    void notifyUpdate(Message m);
 }

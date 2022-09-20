@@ -1,33 +1,23 @@
 package dp.stocks_buy_sell;
 
 public class StockBuySellNTimes {
-    private static int findMaxProfit(int [] price){
-        if(price == null || price.length == 0){
+    private static int findMaxProfit(int[] price) {
+        if (price == null || price.length == 0) {
             return 0;
         }
-        int n = price.length;
-        /**
-         * initially our buying day and selling day are 0. We follow valley peak strategy i.e. we buy on the dip
-         * and sell at the peak 
-         * */
-        int sellingDay = 0, buyingDay = 0, profit = 0;
-        for(int i = 1; i < n; i++){
-            if(price[i] >= price[i-1]){
-                sellingDay++;
-            }
-            else {
-                profit += price[sellingDay] - price[buyingDay];
-                buyingDay = sellingDay = i;
+        int profit = 0;
+        //start with index 1 and compare the price with prev one
+        for (int i = 1; i < price.length; i++) {
+            if (price[i] > price[i - 1]) {
+                profit += price[i] - price[i - 1];
             }
         }
-        //This is for last stroke of up
-        profit += price[sellingDay] - price[buyingDay];
-        return profit;
 
+        return profit;
     }
 
     public static void main(String[] args) {
-        int [] price = {1,2,3};
+        int[] price = {1, 2, 3};
         System.out.println("Max profit after buying and selling N times are : " + findMaxProfit(price));
     }
 }

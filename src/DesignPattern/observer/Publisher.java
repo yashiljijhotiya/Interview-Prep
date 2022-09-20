@@ -3,23 +3,24 @@ package DesignPattern.observer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Publisher implements Subject{
+public class Publisher implements Subject {
 
     private List<Observer> observers = new ArrayList<>();
+
     @Override
     public void attach(Observer o) {
-      observers.add(o);
+        observers.add(o);
     }
 
     @Override
     public void detach(Observer o) {
-      observers.remove(o);
+        observers.remove(o);
     }
 
     @Override
     public void notifyUpdate(Message m) {
-       for(Observer obs : observers){
-           obs.update(m);
-       }
+        for (Observer obs : observers) {
+            obs.update(m);
+        }
     }
 }
