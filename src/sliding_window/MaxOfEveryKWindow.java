@@ -2,10 +2,14 @@ package sliding_window;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
-import java.util.LinkedList;
-/* Remove from front & add at rear of dequeue
+
+/**Remove from front & add at rear of dequeue
 * Dequeue always contains element in desc order
 *Storing index in dequeue provide random access
+ *  Leetcode: 239
+ *  TC: O(N)
+ *  SC: O(K)
+ * *
 * */
 public class MaxOfEveryKWindow {
 
@@ -15,9 +19,9 @@ public class MaxOfEveryKWindow {
 
         int[] output = new int[arr.length - k + 1];
         ArrayDeque<Integer> ad = new ArrayDeque<>();
-
+        int ri = 0;
         for (int i = 0; i < arr.length; i++) {
-            /* Whenever we move to a new window, discard previous window */
+            /* Whenever we move to a new window, discard previous window ie out of bound */
             if (!ad.isEmpty() && ad.peekFirst() == i - k) {
                 ad.removeFirst();
             }
@@ -33,8 +37,8 @@ public class MaxOfEveryKWindow {
 
 
             /* When we find new window, we ll add the maximum in the window to the output */
-            if (i + 1 >= k) {
-                output[i + 1 - k] = arr[ad.peekFirst()];
+            if (i  >= k-1) {
+                output[ri++] = arr[ad.peekFirst()];
             }
         }
         System.out.println(Arrays.toString(output));
