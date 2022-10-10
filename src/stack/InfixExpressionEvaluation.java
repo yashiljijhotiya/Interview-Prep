@@ -80,7 +80,7 @@ public class InfixExpressionEvaluation {
     }
 
     public static void main(String[] args) {
-        String exp = "2+3/4-(5*6)";
+        String exp = "2*(5+5*2)/3+(6/2+8)";
         System.out.println(evaluateExpression(exp));
     }
 }

@@ -31,17 +31,16 @@ public class ReverseList {
         if(head == null || head.next == null){
             return  head;
         }
-        SLLNode prev = null;
         SLLNode curr = head;
-        SLLNode nxt;
+        SLLNode prev = null;
+        SLLNode next = null;
         while(curr != null){
-            nxt = curr.next;
+            next = curr.next;
             curr.next = prev;
             prev = curr;
-            curr = nxt;
+            curr = next;
         }
-        head = prev;
-        return  head;
+        return prev;
     }
 
 
